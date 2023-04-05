@@ -1,0 +1,59 @@
+.topnavbar {
+    background: linear-gradient(153deg, var(--grey) 43%, var(--bg) 81%);
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 2px solid var(--font);
+    
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: -webkit-fill-available;
+
+    .left {
+        a {
+            font-size: 4cqmin;
+            color: var(--bg);
+            transition: all 350ms;
+        }
+
+        transition: all 350ms;
+
+        &:hover {
+            scale: 1.05;
+            a {
+                color: var(--font);
+                letter-spacing: 1rem;
+                font-weight: 200;
+            }
+        }
+    }
+
+    .right {
+        svg {
+            width: 40px;
+            cursor: pointer;
+            transition: all 300ms;
+            fill: var(--font);
+
+            &:hover {
+                scale: 1.1;
+                rotate: 90deg;
+            }
+        }
+    }
+
+
+    // mobile metti top in alto
+    .iconmenu{
+        position: fixed;
+        top: 50vh;
+        left: 5px;
+        svg{
+            width: 30px;
+            stroke: var(--font);
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.sidenavbar {
+    border-right: 2px solid var(--font);
+    border-bottom: 2px solid var(--font);
+    border-top: 2px solid var(--font);
+    background-color: var(--bg);
+    color: var(--font);
+    height: calc(100vh - 250px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+
+    width: 50px;
+    opacity: 0;
+    position: fixed;
+    top: 98px;
+
+    z-index: 999;
+
+    .link {
+        padding: 0 30px;
+
+        a {
+            color: var(--font);
+            transition: 300ms;
+            display: flex;
+            white-space: nowrap;
+        }
+
+        hr {
+            height: 2px;
+            border: none;
+            background-color: var(--red);
+            width: 0;
+            transition: 300ms;
+        }
+
+        &:hover {
+            a {
+                color: var(--red);
+            }
+
+            hr {
+                width: 100%;
+            }
+        }
+    }
+
+    .link.selected {
+        a {
+            color: var(--red);
+        }
+
+        hr {
+            width: 100%;
+        }
+    }
+
+    transition: all 300ms;
+
+    &:hover {
+        width: 200px;
+        opacity: 1;
+    }
+}

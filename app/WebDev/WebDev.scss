@@ -1,0 +1,71 @@
+.home {
+    .banner {
+        position: relative;
+        margin-bottom: 100px;
+        display: flex;
+
+        img {
+            width: 100%;
+            max-height: 50vh;
+            object-fit: cover;
+            filter: drop-shadow(0px 0px 3px var(--font));
+        }
+
+
+        .tit {
+            position: absolute;
+            background-color: transparent;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .val {
+                background-color: var(--bg);
+                color: var(--font);
+                padding: 20px 0;
+                font-size: max(3cqw, 2rem);
+                width: 100%;
+                text-align: center;
+                border: 2px solid var(--font);
+                border-right: none;
+                border-left: none;
+
+                span {
+                    color: var(--red);
+                    font-weight: 600;
+                }
+            }
+
+
+        }
+
+    }
+
+    .servs {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--bg);
+        padding: 5px 10px;
+
+        .icon {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            label {
+                font-size: 0.7rem;
+                color: var(--font);
+            }
+
+            svg {
+                fill: var(--font);
+                height: 30px;
+            }
+        }
+    }
+}
