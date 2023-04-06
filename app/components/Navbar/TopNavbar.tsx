@@ -22,7 +22,19 @@ const lightPalette = {
 }
 
 export default function TopNavbar() {
-    const [palette, setPalette] = useState(localStorage.getItem("theme") ? JSON.parse(localStorage.getItem("theme")!) : lightPalette)
+    const [ls, setLS] = useState('')
+    useEffect(() => {
+        setLS(localStorage.getItem("theme") ?? '')
+    }, [])
+
+    useEffect(() => {
+        setPalette(ls ? JSON.parse(ls) : lightPalette)
+    }, [ls])
+
+    // const [palette, setPalette] = useState(localStorage.getItem("theme") ? JSON.parse(localStorage.getItem("theme")!) : lightPalette)
+    const [palette, setPalette] = useState(lightPalette)
+
+
 
     useEffect(() => {
         localStorage.setItem("theme", JSON.stringify(palette))
@@ -34,6 +46,7 @@ export default function TopNavbar() {
         document.documentElement.style.setProperty('--bgtrans', palette.bgtrans);
     }, [palette])
 
+
     return (
         <nav className='topnavbar'>
             <div className="left">
@@ -44,7 +57,6 @@ export default function TopNavbar() {
 
                     document.querySelector('.link')?.classList.add('selected')
                 }}>
-                    {/* OJXwebdev.com */}
                     <svg height={"53px"} width={"191px"}>
                         <g data-v-70b83f88="" fill="#333" className="iconlettersvg-g iconlettersvg">
                             <g>
