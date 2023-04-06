@@ -8,15 +8,15 @@ export default function () {
       <div className="left">
         <div className="l">
           <Link href={'/WebDev'}>
-            <svg height={"53px"} width={"191px"}>
+            <svg>
               <g data-v-70b83f88="" fill="#333" className="iconlettersvg-g iconlettersvg">
                 <g>
                   <g className="tp-name" transform="matrix(1,0,0,1,0,0)" opacity="1">
                     <g transform="scale(1)">
-                      <g transform="translate(0, 0)">
+                      <g transform="translate(0, 0)" id='first'>
                         <g className="name-imagesvg">
                           <g>
-                            <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="49.83326190573111" height="50" className="image-rect"></rect>
+                            <rect fill-opacity="0" stroke-width="2" x="0" y="0" width="49.83326190573111" height="50" className="image-rect"></rect>
                             <svg x="0" y="0" width="49.83326190573111" height="50" className="image-svg-svg primary">
                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265.99 266.89">
                                 <g fill="#26125b">
@@ -29,7 +29,7 @@ export default function () {
                           </g>
                         </g>
                       </g>
-                      <g transform="translate(49.83326190573111, 0)">
+                      <g transform="translate(49.83326190573111, 0)" id='second'>
                         <g className="name-imagesvg">
                           <g>
                             <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="50.01686145487425" height="50" className="image-rect"></rect>
@@ -42,7 +42,7 @@ export default function () {
                           </g>
                         </g>
                       </g>
-                      <g transform="translate(99.85012336060537, 0)">
+                      <g transform="translate(99.85012336060537, 0)" id='third'>
                         <g className="name-imagesvg">
                           <g>
                             <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="50" height="50" className="image-rect"></rect>
@@ -59,7 +59,7 @@ export default function () {
                   </g>
                 </g>
 
-                <g data-gra="path-slogan" fill-rule="" className="tp-slogan" fill="#333333" transform="matrix(1,0,0,1,134.71506309509277,23)" opacity="1">
+                <g data-gra="path-slogan" fill-rule="" className="tp-slogan" fill="#333333" transform="matrix(1,0,0,1,134.71506309509277,23)" opacity="1" id="fourth">
                   <g mask="url(#13bf197d-c38c-4b13-afcd-65e0d7d680a5)">
                     <g>
                       <rect data-gra="graph-name-bg" stroke-width="2" className="i-icon-bg" x="0" y="0" width="52.42000198364258" height="11.869999885559082" fill-opacity="1"></rect>
@@ -83,7 +83,75 @@ export default function () {
       <div className="right">
         <div className="l">
           {/* ext */}
-          <Link href={'/'}>OJX-Academy</Link>
+          <Link href={'/'}>
+            {/* <svg height={"53px"} width={"191px"}> */}
+            <svg>
+              <g data-v-70b83f88="" fill="#333" className="iconlettersvg-g iconlettersvg">
+                <g>
+                  <g className="tp-name" transform="matrix(1,0,0,1,0,0)" opacity="1">
+                    <g transform="scale(1)">
+                      <g transform="translate(0, 0)" id='firsta'>
+                        <g className="name-imagesvg">
+                          <g>
+                            <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="49.83326190573111" height="50" className="image-rect"></rect>
+                            <svg x="0" y="0" width="49.83326190573111" height="50" className="image-svg-svg primary">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265.99 266.89">
+                                <g fill="#26125b">
+                                  <path d="M199.62 0H65.46A66.37 66.37 0 0 0 0 55.47c.73-.8 1.48-1.59 2.25-2.38a100 100 0 0 1 33.21-23q24-10.07 55-10 28.06 0 50.74 8.69A110.07 110.07 0 0 1 180.82 55a111.91 111.91 0 0 1 25.5 41.68q8.48 24.18 8.45 54.9 0 30.45-8.38 54.5a111.78 111.78 0 0 1-25.31 41.48A108.89 108.89 0 0 1 156 266.89h43.65A66.37 66.37 0 0 0 266 200.52V66.37A66.37 66.37 0 0 0 199.62 0z"></path>
+                                  <path d="M157.48 150.35q0-21.09-4.62-36.61c-3.06-10.34-7.62-18.81-13.63-25.51a58.5 58.5 0 0 0-21.09-15.14A69.68 69.68 0 0 0 90.94 68a69.45 69.45 0 0 0-27.27 5.12 59.58 59.58 0 0 0-21.29 15.37c-6.1 6.78-10.71 15.33-13.82 25.74s-4.68 22.68-4.68 36.8q0 20.83 4.8 36.4c3.19 10.38 7.93 19 14.21 26a62.29 62.29 0 0 0 21.44 15.73 65.62 65.62 0 0 0 26.61 5.24 65.58 65.58 0 0 0 26.53-5.2 61.15 61.15 0 0 0 21.25-15.6c6.19-6.9 10.86-15.56 14-26.08s4.76-22.93 4.76-37.17z"></path>
+                                </g>
+                              </svg>
+                            </svg>
+
+                          </g>
+                        </g>
+                      </g>
+                      <g transform="translate(49.83326190573111, 0)" id='seconda'>
+                        <g className="name-imagesvg">
+                          <g>
+                            <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="50.01686145487425" height="50" className="image-rect"></rect>
+                            <svg x="0" y="0" width="50.01686145487425" height="50" className="image-svg-svg primary">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.9 266.89">
+                                <path d="M200.52 0H66.37A66.37 66.37 0 0 0 0 66.37V193l42.22-4.85.11 2.69a112.53 112.53 0 0 0 2 18 35.9 35.9 0 0 0 4 11.24 24.79 24.79 0 0 0 9.39 9.22 27.86 27.86 0 0 0 13.42 3.08 36.11 36.11 0 0 0 13.51-2.24 18.67 18.67 0 0 0 8.4-6.39 21.86 21.86 0 0 0 2.73-5.49 51.13 51.13 0 0 0 2.08-8.32 148.42 148.42 0 0 0 1.72-24.8V89.69H74.19v-47h109v47H155v92.21c0 20.88-1.81 37-5.59 48.62a70.19 70.19 0 0 1-27.56 36.35h78.73a66.37 66.37 0 0 0 66.38-66.37V66.37A66.38 66.38 0 0 0 200.52 0z" fill="#26125b"></path>
+                              </svg>
+                            </svg>
+
+                          </g>
+                        </g>
+                      </g>
+                      <g transform="translate(99.85012336060537, 0)" id='thirda'>
+                        <g className="name-imagesvg">
+                          <g>
+                            <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="50" height="50" className="image-rect"></rect>
+                            <svg x="0" y="0" width="50" height="50" className="image-svg-svg primary">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.89 266.89">
+                                <path d="M200.52 0H66.37A66.38 66.38 0 0 0 2.2 49.39l51.12 72.36L103.64 49l.75-1.08H173L88.26 164.79l76.8 102.1h35.46a66.36 66.36 0 0 0 66.37-66.37V66.37A66.36 66.36 0 0 0 200.52 0zM16.42 163.04L0 140.64v44.56l16.42-22.16zm35.83 45.7L22.19 250a66.11 66.11 0 0 0 44.18 16.85h28.07z" fill="#bb2e2e"></path>
+                              </svg>
+                            </svg>
+
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+
+                <g data-gra="path-slogan"  fill-rule="" className="tp-slogan" fill="#333333" transform="matrix(1,0,0,1,131.97506523132324,23)" opacity="1" id='fourtha'>
+                  <g mask="url(#2fbe9099-f590-4e78-8bd0-1096f40573a5)">
+                    <g>
+                      <rect data-gra="graph-name-bg" stroke-width="2" className="i-icon-bg" x="0" y="0" width="57.89999771118164" height="12.160000801086426" fill-opacity="1"></rect>            </g>
+                    <g transform="translate(5,2)">
+                      <g transform="scale(1, 1)" fill="#feffff">
+                        <g transform="scale(1)">
+                          <path d="M2.06-3.20L4.43-3.20L4.06-4.40Q3.84-5.06 3.65-5.72Q3.46-6.37 3.26-7.06L3.26-7.06L3.22-7.06Q3.04-6.37 2.84-5.72Q2.65-5.06 2.44-4.40L2.44-4.40L2.06-3.20ZM5.42 0L4.68-2.40L1.81-2.40L1.06 0L0.04 0L2.70-7.87L3.83-7.87L6.49 0L5.42 0ZM7.03-3.94L7.03-3.94Q7.03-4.88 7.30-5.64Q7.56-6.40 8.03-6.92Q8.50-7.45 9.14-7.73Q9.78-8.02 10.54-8.02L10.54-8.02Q11.26-8.02 11.80-7.72Q12.34-7.43 12.68-7.04L12.68-7.04L12.12-6.41Q11.81-6.74 11.43-6.94Q11.05-7.14 10.55-7.14L10.55-7.14Q9.98-7.14 9.53-6.92Q9.07-6.70 8.75-6.28Q8.42-5.87 8.24-5.28Q8.06-4.69 8.06-3.96L8.06-3.96Q8.06-3.22 8.24-2.62Q8.41-2.03 8.72-1.61Q9.04-1.19 9.49-0.96Q9.94-0.73 10.50-0.73L10.50-0.73Q11.08-0.73 11.50-0.96Q11.93-1.19 12.31-1.61L12.31-1.61L12.88-1.00Q12.41-0.46 11.82-0.16Q11.23 0.14 10.48 0.14L10.48 0.14Q9.73 0.14 9.10-0.13Q8.47-0.41 8.01-0.93Q7.55-1.45 7.29-2.21Q7.03-2.98 7.03-3.94ZM15.32-3.20L17.69-3.20L17.32-4.40Q17.10-5.06 16.91-5.72Q16.72-6.37 16.52-7.06L16.52-7.06L16.48-7.06Q16.30-6.37 16.10-5.72Q15.91-5.06 15.70-4.40L15.70-4.40L15.32-3.20ZM18.68 0L17.94-2.40L15.07-2.40L14.32 0L13.30 0L15.96-7.87L17.09-7.87L19.75 0L18.68 0ZM20.87 0L20.87-7.87L22.84-7.87Q24.66-7.87 25.61-6.86Q26.56-5.86 26.56-3.97L26.56-3.97Q26.56-3.04 26.32-2.30Q26.08-1.56 25.61-1.05Q25.14-0.54 24.46-0.27Q23.77 0 22.88 0L22.88 0L20.87 0ZM21.86-0.82L22.76-0.82Q24.14-0.82 24.83-1.64Q25.52-2.47 25.52-3.97L25.52-3.97Q25.52-5.47 24.83-6.26Q24.14-7.06 22.76-7.06L22.76-7.06L21.86-7.06L21.86-0.82ZM28.25 0L28.25-7.87L32.78-7.87L32.78-7.03L29.24-7.03L29.24-4.56L32.23-4.56L32.23-3.71L29.24-3.71L29.24-0.85L32.90-0.85L32.90 0L28.25 0ZM34.57 0L34.57-7.87L35.75-7.87L37.27-3.65L37.85-2.04L37.90-2.04L38.45-3.65L39.96-7.87L41.14-7.87L41.14 0L40.19 0L40.19-4.33Q40.19-4.86 40.23-5.50Q40.27-6.13 40.32-6.66L40.32-6.66L40.27-6.66L39.64-4.91L38.12-0.79L37.56-0.79L36.04-4.91L35.41-6.66L35.36-6.66Q35.40-6.13 35.45-5.50Q35.50-4.86 35.50-4.33L35.50-4.33L35.50 0L34.57 0ZM44.57 0L44.57-3.05L42.20-7.87L43.27-7.87L44.29-5.65Q44.48-5.22 44.66-4.80Q44.84-4.38 45.05-3.94L45.05-3.94L45.10-3.94Q45.30-4.38 45.50-4.80Q45.71-5.22 45.89-5.65L45.89-5.65L46.90-7.87L47.94-7.87L45.58-3.05L45.58 0L44.57 0Z" transform="translate(-0.036000000000000004, 8.016)"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </Link>
           <hr />
         </div>
         <div className="bg"></div>

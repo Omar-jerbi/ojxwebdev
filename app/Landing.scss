@@ -35,13 +35,10 @@
 
         .l {
             text-align: center;
+
         }
 
         .l:hover {
-            a {
-                color: black;
-            }
-
             hr {
                 width: 100%;
             }
@@ -57,8 +54,18 @@
             height: 100%;
             width: 100%;
             z-index: -1;
-            background: linear-gradient(117deg, gold 20%, rgba(255, 255, 255, 1) 56%);
+            background: linear-gradient(117deg, #009eff 20%, rgba(255, 255, 255, 1) 56%);
             animation: rot 20s ease-in-out 0s infinite;
+        }
+
+        .l:hover {
+
+            #first,
+            #second,
+            #third,
+            #fourth {
+                scale: 1.6;
+            }
         }
     }
 
@@ -71,8 +78,18 @@
             height: 100%;
             width: 100%;
             z-index: -1;
-            background: linear-gradient(17deg, rgb(255, 56, 56) 38%, rgb(255, 255, 255) 56%);
+            background: linear-gradient(17deg, #26125b 38%, rgb(255, 255, 255) 56%);
             animation: rot2 20s ease-in-out 0s infinite;
+        }
+
+        .l:hover {
+
+            #firsta,
+            #seconda,
+            #thirda,
+            #fourtha {
+                scale: 1.6;
+            }
         }
     }
 
@@ -126,5 +143,115 @@
             scale: 1;
         }
 
+    }
+
+
+    @keyframes blinkc {
+        from {
+            fill: transparent;
+        }
+
+        to {
+            fill: white;
+
+        }
+    }
+
+    #firsta,
+    #seconda,
+    #thirda,
+    #fourtha,
+    #first,
+    #second,
+    #third,
+    #fourth {
+        scale: 1.5;
+    }
+
+    #firsta {
+        fill: #009eff;
+
+        * {
+            fill: #009eff;
+        }
+    }
+
+    #seconda {
+        fill: #000000;
+
+        * {
+            fill: #000000;
+        }
+    }
+
+    #thirda {
+        fill: #000000;
+
+        * {
+            fill: #000000;
+
+        }
+    }
+
+    #first,
+    #firsta {
+        animation: blinkc 200ms linear 0s 1;
+
+        * {
+            animation: blinkc 200ms linear 0s 1;
+        }
+    }
+
+    #second,
+    #seconda {
+        animation: blinkc 200ms linear 200ms 1;
+
+        * {
+            animation: blinkc 200ms linear 200ms 1;
+        }
+    }
+
+    #third,
+    #thirda {
+        animation: blinkc 200ms linear 400ms 1;
+
+        * {
+            animation: blinkc 200ms linear 400ms 1;
+        }
+    }
+}
+
+@media screen and (max-width:999px) {
+    .landing {
+
+        #firsta,
+        #seconda,
+        #thirda,
+        #fourtha,
+        #first,
+        #second,
+        #third,
+        #fourth {
+            scale: 1.2;
+        }
+    }
+}
+
+@media screen and (max-width:599px) {
+    .landing {
+        svg {
+            width: 50vw;
+        }
+
+        #firsta,
+        #seconda,
+        #thirda,
+        #fourtha,
+        #first,
+        #second,
+        #third,
+        #fourth {
+            scale: 1;
+        }
     }
 }
