@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 import LinkButton from '../components/LinkButton/LinkButton';
 import LongSection from '../components/LongSection/LongSection';
 import SectionHome from '../components/SectionHome/SectionHome';
@@ -18,8 +18,11 @@ export default function () {
 
             <SectionHome imgsrc='/abouthome.jpg' text='Siamo un team giovane di programmatori e sviluppatori informatici con la passione per la progettazione e lo sviluppo di applicazioni e siti web dinamici, responsivi e che rispettano le tue esigenze.' />
 
-            <LongSection imgsrc='/serviceshome.jpg' text='Offriamo una vasta gamma di servizi in ambito di sviluppo web. 
-            Sviluppiamo il sito piu adeguato alle tue esigenze, moderno, dal design accattivante e di semplice manutenzione. Ci occupiamo di tutti gli aspetti tecnici del lavoro: dal Design alla messa online del prodotto finito.'>
+            <LongSection imgsrc='/serviceshome.jpg' text={<span className='tit'>
+                Offriamo una vasta gamma di servizi in ambito di sviluppo web.
+                Sviluppiamo il sito piu adeguato alle tue esigenze, moderno, dal design accattivante e di semplice manutenzione. Ci occupiamo di tutti gli aspetti tecnici del lavoro: dal Design alla messa online del prodotto finito.
+            </span>}
+            >
                 <div className="servs">
                     <div className="icon" title='eCommerce'>
                         <label>eCommerce</label>
@@ -64,7 +67,7 @@ export default function () {
 
             <LinkButton width='100%'>
                 <Link href={""}>
-                    OJX-Academy
+                    OJX Academy
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M334.5 414c8.8 3.8 19 2 26-4.6l144-136c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22l0 72L32 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l288 0 0 72c0 9.6 5.7 18.2 14.5 22z" /></svg>
                 </Link>
             </LinkButton>

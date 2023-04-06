@@ -1,7 +1,8 @@
+import { ReactElement } from 'react';
 import './SectionHome.scss';
 
 interface props {
-    text: string,
+    text: string | ReactElement,
     imgsrc: string,
     reverse?: boolean,
     huerotate?: string

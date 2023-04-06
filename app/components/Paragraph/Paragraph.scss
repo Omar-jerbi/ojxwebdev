@@ -1,0 +1,17 @@
+.paragraph {
+    border: 2px solid var(--font);
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding: 20px 50px;
+
+    a {
+        color: var(--grey);
+        font-weight: 600;
+    }
+
+    transition: all 300ms;
+    &:hover{
+        scale: 1.01;
+        box-shadow: 0 0 5px var(--font);
+    }
+}

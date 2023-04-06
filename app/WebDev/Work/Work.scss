@@ -1,0 +1,88 @@
+.work {
+    .top {
+        position: relative;
+
+        .img {
+            width: 100%;
+
+            img {
+                object-fit: cover;
+                height: 40vh;
+                width: inherit;
+                border: 1px solid var(--font);
+                border-top: none;
+                border-radius: 0 0 10px 10px;
+            }
+        }
+
+        .text {
+            position: absolute;
+            bottom: 4px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .val {
+                border-radius: 10px 10px 0 0;
+                background-color: var(--bg);
+                border: 1px solid var(--font);
+                border-bottom: none;
+
+                width: 70%;
+                padding: 30px;
+
+            }
+        }
+
+        .title {
+            text-align: center;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            
+            .val {
+                border-radius: 5px;
+                background-color: var(--bg);
+                padding: 10px 25px;
+                border: 1px solid var(--font);
+                filter: drop-shadow(0 0 4px var(--font))
+            }
+        }
+    }
+
+    .top.more {
+        margin-top: 100px;
+
+        img {
+            border-top: 1px solid var(--font);
+            border-radius: 10px;
+
+        }
+    }
+
+    hr {
+        width: 30%;
+        height: 3px;
+        border: none;
+        background-color: var(--font);
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .work{
+        .top{
+            img{
+                height: 85vh !important;
+            }
+        }
+    }
+    
+}

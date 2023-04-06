@@ -64,8 +64,19 @@
 
             svg {
                 fill: var(--font);
-                height: 30px;
+                height: max(4cqmin, 20px);
             }
         }
     }
+}
+
+@media screen and (max-width:999px) {
+    .home {
+        .servs {
+            label {
+                display: none;
+            }
+        }
+    }
+
 }

@@ -1,0 +1,21 @@
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 35px;
+        height: 35px;
+        fill: var(--font);
+    }
+
+    .next {
+        margin: 20px 0;
+        svg {
+            fill: var(--grey);
+            width: 25px;
+            height: 25px;
+        }
+    }
+}

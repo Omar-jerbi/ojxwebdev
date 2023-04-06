@@ -1,7 +1,8 @@
+import { ReactElement } from 'react'
 import './LongSection.scss'
 
 interface props {
-    text?: string,
+    text?: string | ReactElement,
     tit?: string,
     imgsrc: string,
     children?: React.ReactNode

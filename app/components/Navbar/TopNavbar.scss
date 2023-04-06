@@ -1,12 +1,12 @@
 .topnavbar {
-    background: linear-gradient(153deg, var(--grey) 43%, var(--bg) 81%);
+    background: linear-gradient(139deg, var(--bgtrans) 23%, var(--font) 81%);
     height: 98px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
     border-bottom: 2px solid var(--font);
-    
+
     position: fixed;
     top: 0;
     z-index: 999;
@@ -14,19 +14,37 @@
 
     .left {
         a {
-            font-size: 4cqmin;
-            color: var(--bg);
-            transition: all 350ms;
+            display: flex;
+            align-items: center;
+
+            svg {
+                transform: scale(1.2);
+            }
         }
 
         transition: all 350ms;
 
         &:hover {
-            scale: 1.05;
-            a {
-                color: var(--font);
-                letter-spacing: 1rem;
-                font-weight: 200;
+            #first {
+                animation: logo 100ms ease-in-out 0s 1;
+            }
+
+            #second {
+                animation: logo 100ms ease-in-out 100ms 1;
+            }
+
+            #third {
+                animation: logo 100ms ease-in-out 200ms 1;
+            }
+        }
+
+        @keyframes logo {
+            from {
+                scale: 1;                
+            }
+
+            to {
+                scale: 1.05;
             }
         }
     }
@@ -36,7 +54,7 @@
             width: 40px;
             cursor: pointer;
             transition: all 300ms;
-            fill: var(--font);
+            fill: var(--bg);
 
             &:hover {
                 scale: 1.1;
@@ -47,13 +65,23 @@
 
 
     // mobile metti top in alto
-    .iconmenu{
+    .iconmenu {
         position: fixed;
         top: 50vh;
         left: 5px;
-        svg{
+
+        svg {
             width: 30px;
-            stroke: var(--font);
+            stroke: var(--red);
         }
     }
+}
+
+@media screen and (max-width:999px) {
+    .topnavbar {
+        .iconmenu {
+            top: 110px
+        }
+    }
+
 }

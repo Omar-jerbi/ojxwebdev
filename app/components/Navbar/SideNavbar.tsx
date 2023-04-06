@@ -49,6 +49,8 @@ export default function SideNavbar() {
                 <Link href={"#"}>OJXacademy</Link>
                 <hr />
             </div>
+
+            <div className="filler"></div>
         </nav>
     )
 }
