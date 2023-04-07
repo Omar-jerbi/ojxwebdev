@@ -42,8 +42,6 @@
                 .imgprofile {
                     border-radius: 50%;
                     position: absolute;
-                    // right: -5vw;
-                    // top: calc(50% - max(5vw, 250px));
 
                     height: fit-content;
                     width: fit-content;
@@ -74,4 +72,13 @@
             }
         }
     }
+}
+
+@media screen and (max-height: 999px) {
+    .about{
+        .imgprofile{
+            transform: translate(-25px, 120px) !important;
+        }
+    }
+    
 }
