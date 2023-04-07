@@ -61,21 +61,12 @@
     // mobile metti top in alto
     .iconmenu {
         position: fixed;
-        top: 50vh;
+        top: 110px;
         left: 5px;
 
         svg {
             width: 30px;
-            stroke: var(--red);
+            stroke: var(--font);
         }
     }
-}
-
-@media screen and (max-width:999px) {
-    .topnavbar {
-        .iconmenu {
-            top: 110px
-        }
-    }
-
 }

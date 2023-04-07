@@ -5,6 +5,7 @@
   --red: #bb2e2e;
   --grey: #6B818C;
   --bgtrans: #001011f1;
+  --imgB: 1;
 }
 
 body {
@@ -14,6 +15,11 @@ body {
 
   color: var(--font);
   background-color: var(--bg);
+
+}
+
+img.b {
+  filter: brightness(var(--imgB));
 }
 
 a {
@@ -47,4 +53,43 @@ span.bigtit {
 *::-webkit-scrollbar-thumb {
   background-color: var(--red);
   border-radius: 20px;
+}
+
+* {
+  z-index: 2;
+}
+
+button {
+  background: var(--bg);
+  color: var(--font);
+  border: 2px solid var(--font);
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+button a {
+  color: var(--font);
+}
+
+button:hover {
+  background: url(../public/bttbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: btt 3s ease-in-out 0s infinite alternate;
+}
+
+@keyframes btt {
+  0% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }

@@ -9,8 +9,8 @@ const darkPalette = {
     bg: "#001011",
     red: "#f698a8",
     grey: "#548687",
-    bgtrans: "#001011f1"
-
+    bgtrans: "#001011f1",
+    imgB: "0.7"
 }
 
 const lightPalette = {
@@ -18,7 +18,8 @@ const lightPalette = {
     bg: "#EBEBEB",
     red: "#bb2e2e",
     grey: "#6B818C",
-    bgtrans: "#EBEBEBf1"
+    bgtrans: "#EBEBEBf1",
+    imgB: "1"
 }
 
 export default function TopNavbar() {
@@ -44,6 +45,7 @@ export default function TopNavbar() {
         document.documentElement.style.setProperty('--red', palette.red);
         document.documentElement.style.setProperty('--grey', palette.grey);
         document.documentElement.style.setProperty('--bgtrans', palette.bgtrans);
+        document.documentElement.style.setProperty('--imgB', palette.imgB);
     }, [palette])
 
 

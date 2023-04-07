@@ -1,3 +1,20 @@
 .services{
-    
+    .longsection{
+        .text{
+            width: 100%;
+        }
+    }
+
+    #bg{
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        svg{
+            max-width: 100%;
+            position: absolute;
+            z-index: 1;
+            left: -250px;
+            bottom: 290px;
+        }
+    }
 }

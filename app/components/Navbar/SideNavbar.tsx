@@ -26,12 +26,8 @@ export default function SideNavbar() {
                 <hr />
             </div>
             <div className="link">
-                <Link href={"/WebDev/About"}>Chi siamo</Link>
-                <hr />
-            </div>
-            <div className="link">
                 {/* + academy*/}
-                <Link href={"/WebDev/Services"}>I nostri servizi</Link>
+                <Link href={"/WebDev/Services"}>Servizi</Link>
                 <hr />
             </div>
             <div className="link">

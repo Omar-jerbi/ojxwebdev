@@ -7,11 +7,9 @@
 
             img {
                 object-fit: cover;
-                height: 40vh;
+                height: calc(100vh - 100px);
                 width: inherit;
-                border: 1px solid var(--font);
-                border-top: none;
-                border-radius: 0 0 10px 10px;
+                border-bottom: 1px solid var(--font);
             }
         }
 

@@ -1,10 +1,13 @@
 .body-clientsite {
     main {
-        background-color: var(--bg);    
-        width: 80vw;
-        margin: 0 10vw;
-
-
+        background-color: var(--bg);
         margin-top: 100px;
+
+        .center {
+            width: 80vw;
+            margin: 0 10vw;
+        }
+
+
     }
 }

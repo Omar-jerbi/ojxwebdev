@@ -1,11 +1,9 @@
 import Paragraph from "@/app/components/Paragraph/Paragraph";
 import './Contacts.scss'
-import LinkButton from "@/app/components/LinkButton/LinkButton";
-
 
 export default function () {
     return (
-        <div className="contacts" style={{ paddingTop: "50px" }}>
+        <div className="contacts center" style={{ paddingTop: "50px" }}>
 
             <Paragraph
                 text={
@@ -17,7 +15,7 @@ export default function () {
             <Paragraph
                 text={
                     <span>
-                        Per informazioni riguardanti i nostri corsi: <a href="mailto:info@ojxacademy.com">info@ojxacademy.com</a>
+                        Per informazioni riguardanti i corsi OJX: <a href="mailto:info@ojxacademy.com">info@ojxacademy.com</a>
                     </span>
                 }
             />
@@ -25,7 +23,7 @@ export default function () {
             <Paragraph
                 text={
                     <span>
-                        Chatta con noi su <a href="/">Discord</a>
+                        Chat <a href="https://discordapp.com/users/6823">Discord</a>
                     </span>
                 }
             />
@@ -33,7 +31,7 @@ export default function () {
             <Paragraph
                 text={
                     <span>
-                        Chatta con noi su <a href="/">Telegram</a>
+                        Chat <a href="https://t.me/OJXwebdev">Telegram</a>
                     </span>
                 }
             />
@@ -42,17 +40,15 @@ export default function () {
                 text={
                     <div className="formmail">
                         <div className="tit">
-                            Scrivici un messaggio direttamente qui:
+                            Oppure scrivi direttamente qui il tuo messaggio:
                         </div>
                         <div className="form">
-                            <input type="text" placeholder="La tua email..."/>
+                            <input type="text" placeholder="La tua email..." />
                             <textarea placeholder="Il tuo messaggio..."></textarea>
                         </div>
-                        <LinkButton width="100%">
-                            <span>
-                                Invia
-                            </span>
-                        </LinkButton>
+                        <div className="btt">
+                            <button>Invia</button>
+                        </div>
                     </div>
                 }
             />
