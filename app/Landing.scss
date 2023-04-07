@@ -10,45 +10,39 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        div {
-            a {
-                text-decoration: none;
-                font-size: 5cqmin;
-                font-weight: 700;
-
-                color: transparent;
-                -webkit-text-stroke: 2px var(--font);
-                letter-spacing: 0.2rem;
-
-                transition: all 700ms;
-            }
-        }
-
-        hr {
-            height: 4px;
-            border: none;
-            background-color: black;
-            width: 0;
-            transition: all 200ms;
-        }
+        position: relative;
+        overflow: hidden;
 
         .l {
-            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
+            // a {}
+
+            hr {
+                width: 0;
+                opacity: 0;
+                height: 4px;
+                border: none;
+                background-color: var(--font);
+                transition: all 300ms;
+            }
         }
 
-        .l:hover {
+
+        &:hover {
             hr {
-                width: 100%;
+                width: 90%;
+                opacity: 1;
             }
+
         }
     }
 
     .left {
-        position: relative;
-        overflow: hidden;
-
         .bg {
             position: absolute;
             height: 100%;
@@ -57,22 +51,9 @@
             background: linear-gradient(117deg, #009eff 20%, rgba(255, 255, 255, 1) 56%);
             animation: rot 20s ease-in-out 0s infinite;
         }
-
-        .l:hover {
-
-            #first,
-            #second,
-            #third,
-            #fourth {
-                scale: 1.6;
-            }
-        }
     }
 
     .right {
-        position: relative;
-        overflow: hidden;
-
         .bg {
             position: absolute;
             height: 100%;
@@ -82,15 +63,6 @@
             animation: rot2 20s ease-in-out 0s infinite;
         }
 
-        .l:hover {
-
-            #firsta,
-            #seconda,
-            #thirda,
-            #fourtha {
-                scale: 1.6;
-            }
-        }
     }
 
     @keyframes rot {
@@ -145,113 +117,23 @@
 
     }
 
-
-    @keyframes blinkc {
-        from {
-            fill: transparent;
-        }
-
-        to {
-            fill: white;
-
-        }
+    #webdev,
+    #academy {
+        height: 10vh;
+        width: auto;
     }
 
-    #firsta,
-    #seconda,
-    #thirda,
-    #fourtha,
-    #first,
-    #second,
-    #third,
-    #fourth {
-        scale: 1.5;
-    }
-
-    #firsta {
-        fill: #009eff;
-
-        * {
-            fill: #009eff;
-        }
-    }
-
-    #seconda {
-        fill: #000000;
-
-        * {
-            fill: #000000;
-        }
-    }
-
-    #thirda {
-        fill: #000000;
-
-        * {
-            fill: #000000;
-
-        }
-    }
-
-    #first,
-    #firsta {
-        animation: blinkc 200ms linear 0s 1;
-
-        * {
-            animation: blinkc 200ms linear 0s 1;
-        }
-    }
-
-    #second,
-    #seconda {
-        animation: blinkc 200ms linear 200ms 1;
-
-        * {
-            animation: blinkc 200ms linear 200ms 1;
-        }
-    }
-
-    #third,
-    #thirda {
-        animation: blinkc 200ms linear 400ms 1;
-
-        * {
-            animation: blinkc 200ms linear 400ms 1;
-        }
-    }
 }
 
-@media screen and (max-width:999px) {
+@media screen and (max-width: 999px) {
     .landing {
-
-        #firsta,
-        #seconda,
-        #thirda,
-        #fourtha,
-        #first,
-        #second,
-        #third,
-        #fourth {
-            scale: 1.2;
-        }
+        flex-direction: column;
     }
-}
 
-@media screen and (max-width:599px) {
-    .landing {
-        svg {
-            width: 50vw;
-        }
-
-        #firsta,
-        #seconda,
-        #thirda,
-        #fourtha,
-        #first,
-        #second,
-        #third,
-        #fourth {
-            scale: 1;
-        }
+    .left,
+    .right {
+        width: 100vw !important;
+        height: 50vh !important;
     }
+
 }
