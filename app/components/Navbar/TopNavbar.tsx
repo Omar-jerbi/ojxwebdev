@@ -78,13 +78,13 @@ export default function TopNavbar() {
                 {
                     palette == lightPalette ?
                         <svg viewBox="0 0 102 103" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M51.158 81.3469C67.6716 81.3469 81.058 67.9604 81.058 51.4469C81.058 34.9336 67.6716 21.5469 51.158 21.5469C34.6447 21.5469 21.258 34.9336 21.258 51.4469C21.258 67.9604 34.6447 81.3469 51.158 81.3469Z" stroke="var(--bg)" stroke-width="6.92142" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M84.002 84.2909L83.404 83.6929M83.404 19.2009L84.002 18.6029M18.314 84.2909L18.912 83.6929M51.158 5.81487V5.44687M51.158 97.4469V97.0789M5.52603 51.4469H5.15804M97.158 51.4469H96.79M18.912 19.2009L18.314 18.6029" stroke="var(--bg)" stroke-width="9.22856" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M51.158 81.3469C67.6716 81.3469 81.058 67.9604 81.058 51.4469C81.058 34.9336 67.6716 21.5469 51.158 21.5469C34.6447 21.5469 21.258 34.9336 21.258 51.4469C21.258 67.9604 34.6447 81.3469 51.158 81.3469Z" stroke="var(--bg)" strokeWidth="6.92142" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M84.002 84.2909L83.404 83.6929M83.404 19.2009L84.002 18.6029M18.314 84.2909L18.912 83.6929M51.158 5.81487V5.44687M51.158 97.4469V97.0789M5.52603 51.4469H5.15804M97.158 51.4469H96.79M18.912 19.2009L18.314 18.6029" stroke="var(--bg)" strokeWidth="9.22856" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
 
                         :
                         <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.129 51.9421C5.8389 75.626 26.5952 94.895 51.4362 95.9527C68.9627 96.6885 84.6367 88.7786 94.0412 76.3158C97.936 71.2111 95.8461 67.808 89.339 68.9577C86.1567 69.5095 82.8793 69.7395 79.4595 69.6015C56.2334 68.6818 37.2346 49.8726 37.1396 27.6602C37.0921 21.6817 38.3745 16.0252 40.7019 10.8745C43.2667 5.17198 40.1794 2.45868 34.2422 4.89605C15.4333 12.5761 2.56159 30.9253 4.129 51.9421Z" stroke="#292D32" stroke-width="7.1467" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M4.129 51.9421C5.8389 75.626 26.5952 94.895 51.4362 95.9527C68.9627 96.6885 84.6367 88.7786 94.0412 76.3158C97.936 71.2111 95.8461 67.808 89.339 68.9577C86.1567 69.5095 82.8793 69.7395 79.4595 69.6015C56.2334 68.6818 37.2346 49.8726 37.1396 27.6602C37.0921 21.6817 38.3745 16.0252 40.7019 10.8745C43.2667 5.17198 40.1794 2.45868 34.2422 4.89605C15.4333 12.5761 2.56159 30.9253 4.129 51.9421Z" stroke="#292D32" strokeWidth="7.1467" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
 
                 }
@@ -92,15 +92,15 @@ export default function TopNavbar() {
 
             <div className="iconmenu">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M19 6C19.5523 6 20 5.55228 20 5C20 4.44772 19.5523 4 19 4C18.4477 4 18 4.44772 18 5C18 5.55228 18.4477 6 19 6Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M19 20C19.5523 20 20 19.5523 20 19C20 18.4477 19.5523 18 19 18C18.4477 18 18 18.4477 18 19C18 19.5523 18.4477 20 19 20Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M5 6C5.55228 6 6 5.55228 6 5C6 4.44772 5.55228 4 5 4C4.44772 4 4 4.44772 4 5C4 5.55228 4.44772 6 5 6Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M5 20C5.55228 20 6 19.5523 6 19C6 18.4477 5.55228 18 5 18C4.44772 18 4 18.4477 4 19C4 19.5523 4.44772 20 5 20Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M19 6C19.5523 6 20 5.55228 20 5C20 4.44772 19.5523 4 19 4C18.4477 4 18 4.44772 18 5C18 5.55228 18.4477 6 19 6Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M19 20C19.5523 20 20 19.5523 20 19C20 18.4477 19.5523 18 19 18C18.4477 18 18 18.4477 18 19C18 19.5523 18.4477 20 19 20Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5 6C5.55228 6 6 5.55228 6 5C6 4.44772 5.55228 4 5 4C4.44772 4 4 4.44772 4 5C4 5.55228 4.44772 6 5 6Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5 20C5.55228 20 6 19.5523 6 19C6 18.4477 5.55228 18 5 18C4.44772 18 4 18.4477 4 19C4 19.5523 4.44772 20 5 20Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             </div>
 

@@ -9,7 +9,7 @@ export default function () {
 
             <div className="top">
                 <div className="img">
-                    <img className='b' src="/work.jpg" alt="" />
+                    <img src="/work.jpg" alt="" />
                 </div>
                 <div className="text">
                     <div className="val">

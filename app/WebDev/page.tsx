@@ -9,7 +9,7 @@ export default function () {
     return (
         <div className="home">
             <div className="banner">
-                <img className='b' src={'/about.jpg'} />
+                <img src={'/about.jpg'} />
                 <div className="tit">
                     <div className="val">
                         Sviluppiamo il<span> TUO </span>sito web!
