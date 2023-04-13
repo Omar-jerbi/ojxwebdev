@@ -76,19 +76,25 @@ button a {
 }
 
 button:hover {
-  background: url(../public/bttbg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation: btt 3s ease 0s infinite alternate;
-  color: black;  
-  letter-spacing: 0.4rem;
+  background: rgb(0, 93, 255);
+  background: radial-gradient(circle, rgba(0, 93, 255, 1) 0%, rgba(255, 0, 0, 1) 10%, rgba(129, 255, 0, 1) 16%, rgba(117, 187, 188, 1) 24%, rgba(255, 0, 249, 1) 31%, rgba(255, 85, 104, 1) 39%, rgba(2, 0, 255, 1) 51%, rgba(255, 255, 255, 1) 64%, rgba(0, 255, 235, 1) 73%, rgba(220, 0, 255, 1) 84%, rgba(249, 255, 0, 1) 93%);
+  background-size: 2rem 1rem;
 
+
+  animation: btt 3s ease-in-out 0s infinite alternate;
+  color: white;
+  letter-spacing: 0.4rem;    
 }
 
 button:hover a {
-  color: black;  
+  color: white;
   letter-spacing: 0.4rem;
+  
+  filter: drop-shadow(0 0 2px black);
+}
 
+button:hover span{  
+  filter: drop-shadow(0 0 2px black);  
 }
 
 @keyframes btt {

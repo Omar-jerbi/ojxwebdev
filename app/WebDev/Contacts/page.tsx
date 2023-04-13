@@ -47,7 +47,7 @@ export default function () {
                             <textarea placeholder="Il tuo messaggio..."></textarea>
                         </div>
                         <div className="btt">
-                            <button>Invia</button>
+                            <button><span>Invia</span></button>
                         </div>
                     </div>
                 }
