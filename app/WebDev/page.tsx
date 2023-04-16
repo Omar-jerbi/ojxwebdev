@@ -242,7 +242,7 @@ export default function () {
 
                     <div>
                         <button>
-                            <Link href={""}>
+                            <Link href={'https://ojxacademy.com'} target="_blank">
                                 OJX Academy
                             </Link>
                         </button>

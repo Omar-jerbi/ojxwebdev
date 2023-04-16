@@ -32,8 +32,8 @@ export default function SideNavbar() {
             } else
                 if (window.location.pathname.includes("Contacts")) {
                     document.querySelector("#Contacts")?.classList.add("selected")
-                }else
-                document.querySelector("#Home")?.classList.add("selected")
+                } else
+                    document.querySelector("#Home")?.classList.add("selected")
     }, [])
 
     return (
@@ -59,7 +59,7 @@ export default function SideNavbar() {
             </div>
             <div className="link">
                 {/* link esterno */}
-                <Link href={"#"}>OJXacademy</Link>
+                <Link href={'https://ojxacademy.com'} target="_blank">OJXacademy</Link>
                 <hr />
             </div>
 

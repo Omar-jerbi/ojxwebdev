@@ -1,3 +1,4 @@
+import { Formmail } from './formmail';
 import Paragraph from "@/app/components/Paragraph/Paragraph";
 import './Contacts.scss'
 
@@ -38,18 +39,7 @@ export default function () {
 
             <Paragraph
                 text={
-                    <div className="formmail">
-                        <div className="tit">
-                            Oppure scrivi direttamente qui il tuo messaggio:
-                        </div>
-                        <div className="form">
-                            <input type="text" placeholder="La tua email..." />
-                            <textarea placeholder="Il tuo messaggio..."></textarea>
-                        </div>
-                        <div className="btt">
-                            <button><span>Invia</span></button>
-                        </div>
-                    </div>
+                    <Formmail />
                 }
             />
 

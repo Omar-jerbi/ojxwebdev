@@ -28,8 +28,7 @@ export default function () {
 
       <div className="right">
         <div className="l">
-          {/* ext */}
-          <Link href={'/Error'}>
+          <Link href={'https://ojxacademy.com'} target="_blank">
             <svg id='academy' viewBox="0 0 210 124" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g>
