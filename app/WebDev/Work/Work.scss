@@ -4,6 +4,14 @@
 
         .img {
             width: 100%;
+            height: calc(100vh - 100px);
+
+
+            background-color: var(--bg);
+            opacity: 1;
+            background-image: radial-gradient(#9d1b72 1.8px, var(--bg) 1.8px);
+            background-size: 36px 36px;
+
 
             img {
                 object-fit: cover;
@@ -26,7 +34,6 @@
                 border-radius: 10px 10px 0 0;
                 background-color: var(--bg);
                 border: 1px solid var(--font);
-                border-bottom: none;
 
                 width: 70%;
                 padding: 30px;

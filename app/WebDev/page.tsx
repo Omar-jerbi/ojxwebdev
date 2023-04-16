@@ -9,7 +9,6 @@ export default function () {
     return (
         <div className="home">
             <div className="banner">
-                <img src={'/about.jpg'} />
                 <div className="tit">
                     <div className="val">
                         Sviluppiamo il<span> TUO </span>sito web!
@@ -119,7 +118,7 @@ export default function () {
 
 
 
-                <LongSection imgsrc='/serviceshome.jpg' text={<span className='tit'>
+                <LongSection text={<span className='tit'>
                     Verra sviluppato il sito web piu adeguato alle tue esigenze, moderno, dal design accattivante e di semplice manutenzione.
                 </span>}
                 >

@@ -4,16 +4,18 @@ import './LongSection.scss'
 interface props {
     text?: string | ReactElement,
     tit?: string,
-    imgsrc: string,
+    imgsrc?: string,
     children?: React.ReactNode
 }
 
 export default function LongSection(props: props) {
     return (
         <div className="longsection">
-            <div className="bg">
-                <img src={props.imgsrc} alt="" />
-            </div>
+            {props.imgsrc &&
+                <div className="bg">
+                    <img src={props.imgsrc} alt="" />
+                </div>
+            }
 
             <div className="content">
                 <div className="text">

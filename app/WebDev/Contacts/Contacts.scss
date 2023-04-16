@@ -1,11 +1,15 @@
 .contacts {
-    // background-image: url('../../../public/contacts.jpg');
-    // background-size: contain;
+
     padding-bottom: 30px;
 
-    background: rgb(250, 255, 0);
-    background: linear-gradient(90deg, rgba(250, 255, 0, 1) 0%, rgba(255, 0, 0, 1) 14%, rgba(129, 255, 0, 1) 27%, rgba(0, 0, 0, 1) 41%, rgba(255, 0, 249, 1) 52%, rgba(255, 255, 255, 1) 64%, rgba(0, 255, 235, 1) 73%, rgba(255, 184, 0, 1) 81%, rgba(249, 255, 0, 1) 93%);
-    background-size: 1rem;
+    // background: rgb(250, 255, 0);
+    // background: linear-gradient(90deg, rgba(250, 255, 0, 1) 0%, rgba(255, 0, 0, 1) 14%, rgba(129, 255, 0, 1) 27%, rgba(0, 0, 0, 1) 41%, rgba(255, 0, 249, 1) 52%, rgba(255, 255, 255, 1) 64%, rgba(0, 255, 235, 1) 73%, rgba(255, 184, 0, 1) 81%, rgba(249, 255, 0, 1) 93%);
+    // background-size: 1rem;
+
+    background-color: var(--bg);
+    opacity: 1;
+    background: repeating-linear-gradient( 45deg, #9d1b72, #9d1b72 4px, var(--bg) 4px, var(--bg) 20px );  
+
 
     .formmail {
         .tit {

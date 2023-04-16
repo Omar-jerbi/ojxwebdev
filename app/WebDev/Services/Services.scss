@@ -1,7 +1,13 @@
 .services {
     .longsection {
         .text {
-            width: 100%;
+            width: 100% !important;
+        }
+
+        .content {
+            background-color: var(--bg);
+            opacity: 1;
+            background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--bg) 36px), repeating-linear-gradient(#9d1b7255, #9d1b72);
         }
     }
 

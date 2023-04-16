@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function () {
     return (
         <div className="services">
-            <LongSection imgsrc='/services.jpg' text={
+            <LongSection text={
                 <span className='tit'>
                     <b style={{ color: 'var(--red)' }}>"Le tue idee, il tuo sito"</b> questo è l'approccio OJX!
                     <br />
