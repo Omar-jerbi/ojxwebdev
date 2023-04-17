@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import swal from "sweetalert"
 
 export function Formmail() {
 
@@ -32,7 +33,7 @@ export function Formmail() {
             })
                 .then(res => {
                     sl(false)
-                    alert("Messaggio inviato con successo. Ti invieremo un e-mail di risposta prima possibile!")
+                    swal("Messaggio inviato con successo. Ti invieremo un e-mail di risposta prima possibile!")
                 })
         }
     }

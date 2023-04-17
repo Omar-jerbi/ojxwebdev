@@ -30,6 +30,8 @@
             background-size: 68px 119px;
             background-position: 0 0, 0 0, 34px 60px, 34px 60px, 0 0, 34px 60px;
 
+            transition: all 500ms;
+
             .val {
                 background-color: var(--bg);
                 color: var(--font);

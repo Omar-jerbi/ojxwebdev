@@ -1,16 +1,19 @@
 .topnavbar {
-    background: linear-gradient(139deg, var(--bgtrans) 23%, var(--font) 81%);
+    // background: linear-gradient(139deg, var(--bgtrans) 23%, var(--font) 81%);
+    background: linear-gradient(180deg, var(--bgtrans) 76%, var(--font) 192%);
     height: 98px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
-    border-bottom: 2px solid var(--font);
+    padding: 0 20px 0 5px;
+    // border-bottom: 2px solid var(--font);
+    border-bottom: 2px solid transparent;
 
     position: fixed;
     top: 0;
     z-index: 999;
     width: -webkit-fill-available;
+
 
     .left {
         a {
@@ -19,7 +22,7 @@
 
             svg {
                 transition: all 200ms;
-                width: 50%;
+                width: 40%;
                 height: auto;
 
                 fill: var(--font);
@@ -44,11 +47,11 @@
 
     .right {
         svg {
-            width: max(30px, 3cqmin);
+            width: max(25px, 2.5cqmin);
             height: auto;
             cursor: pointer;
             transition: all 300ms;
-            fill: var(--bg);
+            fill: var(--font);
 
             &:hover {
                 scale: 1.1;

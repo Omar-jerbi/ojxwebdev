@@ -14,14 +14,14 @@ export default function () {
                 <div className="text">
                     <div className="val">
                         <span className='tit'>
-                            Per la realizzazione di un progetto ci affidiamo al rispetto di una catena di steps
+                            Per la realizzazione di un progetto seguiamo una catena ben determinata e ben documentata di steps
                             dove ad ogni tappa il tuo sito assumerà nuove funzionalità e nuovi dettagli grafici
                         </span>
                     </div>
                 </div>
                 <div className="title">
                     <div className="val">
-                        <span className="bigtit">Come vengono realizzati i progetti da OJX?</span>
+                        <span className="bigtit">Come vengono realizzati i progetti OJX</span>
                     </div>
                     <div className=""></div>
                 </div>

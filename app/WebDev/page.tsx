@@ -3,6 +3,7 @@ import LongSection from '../components/LongSection/LongSection';
 import SectionHome from '../components/SectionHome/SectionHome';
 import './WebDev.scss'
 import './About/About.scss'
+import { spawn } from 'child_process';
 
 
 export default function () {
@@ -18,9 +19,12 @@ export default function () {
 
 
             <div className="center">
-                <SectionHome imgsrc='/abouthome.jpg' text="
-            Utilizzando le tecnologie piu avanzate sul mercato, il tuo sito verra sviluppato seguendo le TUE idee.
-            " />
+                <SectionHome imgsrc='/abouthome.jpg' text={
+                    <span id='sizereact'>
+                        Utilizzando le tecnologie piu avanzate sul mercato, il tuo sito verrà sviluppato seguendo le TUE idee.
+                    </span>
+                }
+                />
 
                 <div id='bg1'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="524.67004" height="531.39694" viewBox="0 0 524.67004 531.39694">
@@ -101,11 +105,12 @@ export default function () {
                         <div className="profile">
                             <div className="wrapper">
                                 <div className="text">
-                                    <span className='tit'> Sono Omar, dottore in informatica laureato presso l'università di Genova e founder di OJXwebdev e OJXacademy.</span>
+                                    <span className='tit'>Sono Omar, dottore in informatica laureato presso l'università di Genova e founder di OJXwebdev e OJXacademy.</span>
                                     <br />
                                     <span className='tit'>
-                                        Miro a indirizzare le mie capacita informatiche nello sviluppo e la gestione di progetti per privati e aziende.
-                                        Oltre alla formazione universitaria, ho coltivato negli anni molte esperienze lavorative presso aziende del settore, cio mi ha permesso di sviluppare un bagaglio di skills che ti garantiranno un prodotto di qualità superiore
+                                        Con questi miei due progetti miro ad indirizzare le mie capacità informatiche nello sviluppo e la gestione di siti web per privati e aziende.
+                                        <br />
+                                        Partendo dal design dell'interfaccia della pagina e proseguendo con il suo sviluppo e la successiva messa in produzione, la qualità del tuo sito realizzato con OJX non avrà eguali!
                                     </span>
                                 </div>
                                 <div className="imgprofile">
@@ -119,7 +124,7 @@ export default function () {
 
 
                 <LongSection text={<span className='tit'>
-                    Verra sviluppato il sito web piu adeguato alle tue esigenze, moderno, dal design accattivante e di semplice manutenzione.
+                    Tutti i siti che vuoi! Intuitivi per i tuoi clienti e di facile manutenzione per gli upgrade futuri
                 </span>}
                 >
                     <div className="servs">
@@ -225,8 +230,8 @@ export default function () {
 
                 <SectionHome reverse={true} imgsrc='/methshome.jpg'
                     text="Utilizziamo un approccio user-friendly per la progettazione dell'interfaccia 
-                desiderata. I tuoi feedback ci guideranno per l'intera fase di sviluppo cosi da consegnarti
-                un prodotto funzionante, completo e che rispecchia pienamente le tue idee."
+                desiderata. I tuoi feedback guideranno l'intera fase di sviluppo cosi da consegnarti
+                un prodotto funzionante, completo e che rispecchi pienamente le tue idee."
                 />
 
 

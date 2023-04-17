@@ -23,9 +23,9 @@ export default function () {
 
                 <SectionHome
                     reverse
-                    text={<span>
-                        Dalla creazione di siti statici allo sviluppo di
-                        eCommerce, con OJX hai tutto sotto controllo.
+                    text={<span id='sizereact'>
+                        Dalle fasi iniziali di progettazione all'ottimizzazione per i motori di ricerca, non ti dovrai preoccupare degli aspetti più tecnici: 
+                        In molti casi, le software house lasciano al cliente il compito di occuparsi dell'hosting del sito web, non con OJX.
                     </span>}
                     imgsrc='/serviceshome.jpg' />
 
@@ -74,9 +74,8 @@ export default function () {
 
 
                 <SectionHome
-                    text={<span>
-                        Pensa a tutto OJX. Non ti
-                        dovrai preoccupare di acquistare domini, allestire mail box o gestire l'hosting delle tue pagine.
+                    text={<span id='sizereact'>
+                        Non ti dovrai preoccupare di acquistare domini, allestire mail box o gestire l'hosting delle tue pagine.
                         Il tuo sito verra allestito completo di tutto il necessario per essere acceduto dai pricipali browser e raggiunto dai motori di ricerca
                     </span>}
                     imgsrc='/services2.jpg' />
@@ -125,10 +124,10 @@ export default function () {
 
                 <SectionHome
                     reverse
-                    text={<span>
-                        Vuoi imparare l'arte dello sviluppo web e il mestiere del programmatore? Dai un'occhiata alla web academy OJX!
+                    text={<span id='sizereact'>
+                        Vuoi imparare l'arte dello sviluppo web o arricchire le tuo competenze personali in materia di programmazione internet? Dai un'occhiata alla web academy OJX!
                         <br />
-                        <Link style={{ color: "var(--grey)" }} href={'/'}>Vai a OJX academy...</Link>
+                        <Link style={{ color: "var(--grey)" }} href={'https://ojxacademy.com'} target='_blank'>Vai a OJX academy...</Link>
                     </span>}
                     imgsrc='/services3.jpg' />
 
