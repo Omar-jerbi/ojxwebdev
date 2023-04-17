@@ -27,7 +27,7 @@ export default function () {
                         Dalle fasi iniziali di progettazione all'ottimizzazione per i motori di ricerca, non ti dovrai preoccupare degli aspetti più tecnici: 
                         In molti casi, le software house lasciano al cliente il compito di occuparsi dell'hosting del sito web, non con OJX.
                     </span>}
-                    imgsrc='/serviceshome.jpg' />
+                    imgsrc='/serviceshome.webp' />
 
                 <div id="bg">
                     <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 844.52097 544.59508">
@@ -129,7 +129,7 @@ export default function () {
                         <br />
                         <Link style={{ color: "var(--grey)" }} href={'https://ojxacademy.com'} target='_blank'>Vai a OJX academy...</Link>
                     </span>}
-                    imgsrc='/services3.jpg' />
+                    imgsrc='/services3.webp' />
 
             </div>
         </div>

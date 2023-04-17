@@ -13,9 +13,9 @@ export default function SectionHome(props: props) {
     return (
         <div className={"sectionhome" + (props.reverse ? " rev" : '')}>
             <div className="text">
-                <p>
+                <article>
                     {props.text}
-                </p>
+                </article>
             </div>
             <div className="img">
                 <img src={props.imgsrc} alt="" style={{ filter: `hue-rotate(${props.huerotate})` }} />

@@ -19,9 +19,9 @@ export default function LongSection(props: props) {
 
             <div className="content">
                 <div className="text">
-                    <p>
+                    <section>
                         {props.text}
-                    </p>
+                    </section>
                 </div>
                 {props.children &&
                     <div className='child'>

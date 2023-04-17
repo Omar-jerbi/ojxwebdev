@@ -52,7 +52,7 @@ export default function TopNavbar() {
     return (
         <nav className='topnavbar'>
             <div className="left">
-                <Link href={"/WebDev"} onClick={() => {
+                <Link href={"/"} onClick={() => {
                     document.querySelectorAll('.link').forEach(oldlink => {
                         oldlink.classList.remove('selected')
                     })
