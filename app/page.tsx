@@ -20,7 +20,7 @@ export default function () {
 
             <div className="center">
                 <SectionHome imgsrc='/abouthome.jpg' text={
-                    <span id='sizereact'>Utilizzando le tecnologie piu avanzate sul mercato, il tuo sito verrà sviluppato seguendo le TUE idee.</span>
+                    <span id='sizereact'>Utilizzando le tecnologie più avanzate sul mercato, il tuo sito verrà sviluppato seguendo le TUE idee.</span>
                 }
                 />
 
@@ -125,7 +125,7 @@ export default function () {
 
 
                 <LongSection text={<span className='tit'>
-                    Omar J profile pictureTutti i siti che vuoi! Intuitivi per i tuoi clienti e di facile manutenzione per gli upgrade futuri
+                    Tutti i siti che vuoi! Intuitivi per i tuoi clienti e di facile manutenzione per gli upgrade futuri
                 </span>}
                 >
                     <div className="servs">
@@ -230,7 +230,7 @@ export default function () {
 
 
                 <SectionHome reverse={true} imgsrc='/methshome.jpg'
-                    text={"Utilizziamo un approccio user-friendly per la progettazione dell'interfaccia desiderata. I tuoi feedback guideranno l'intera fase di sviluppo cosi da consegnarti un prodotto funzionante, completo e che rispecchi pienamente le tue idee."}
+                    text={"Utilizziamo un approccio user-friendly per la progettazione dell'interfaccia desiderata. I tuoi feedback guideranno l'intera fase di sviluppo così da consegnarti un prodotto funzionante, completo e che rispecchi pienamente le tue idee."}
                 />
 
 

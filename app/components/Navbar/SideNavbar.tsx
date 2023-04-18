@@ -39,7 +39,7 @@ export default function SideNavbar() {
     return (
         <nav className='sidenavbar'>
             <div id='Home' className="link selected">
-                <Link href={"/WebDev"}>Home</Link>
+                <Link href={"/"}>Home</Link>
                 <hr />
             </div>
             <div id='Services' className="link">

@@ -16,7 +16,7 @@ export default function () {
             <Paragraph
                 text={
                     <span>
-                        Per informazioni riguardanti i corsi OJX: <a href="https://ojxacademy.com" target='_blank'>ojxacademy.com</a>
+                        Per informazioni sui corsi OJX: <a href="https://ojxacademy.com" target='_blank'>ojxacademy.com</a>
                     </span>
                 }
             />

@@ -83,17 +83,20 @@ button a {
 button:hover {
   border-color: var(--font);
 
-  color: white;
+  color: var(--font);
   letter-spacing: 0.4rem;
 }
 
 button:hover a {
-  color: white;
+  color: var(--font);
   letter-spacing: 0.4rem;
 
 }
 
-button:hover span {}
+button:hover span {
+  color: var(--font);
+  letter-spacing: 0.4rem;
+}
 
 
 #sizereact {
