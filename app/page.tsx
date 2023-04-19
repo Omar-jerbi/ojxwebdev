@@ -230,7 +230,10 @@ export default function () {
 
 
                 <SectionHome reverse={true} imgsrc='/methshome.jpg'
-                    text={"Utilizziamo un approccio user-friendly per la progettazione dell'interfaccia desiderata. I tuoi feedback guideranno l'intera fase di sviluppo così da consegnarti un prodotto funzionante, completo e che rispecchi pienamente le tue idee."}
+                    text={<span id='sizereact'>
+                        Utilizziamo un approccio user-friendly per la progettazione dell'interfaccia desiderata. I tuoi feedback guideranno l'intera fase di sviluppo così da consegnarti un prodotto funzionante, completo e che rispecchi pienamente le tue idee.
+                    </span>
+                    }
                 />
 
 
