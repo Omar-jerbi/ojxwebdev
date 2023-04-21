@@ -40,16 +40,6 @@
         }
     }
 
-    #bg1 {
-        z-index: 1;
-        position: relative;
-
-        svg {
-            position: absolute;
-            top: -300px;
-            left: -200px;
-        }
-    }
 
     #bg2 {
         z-index: 1;
@@ -110,17 +100,6 @@
         .servs {
             label {
                 display: none;
-            }
-        }
-    }
-
-}
-
-@media screen and (max-width:450px) {
-    .home {
-        #bg1{
-            svg{
-                scale: 0.6;
             }
         }
     }

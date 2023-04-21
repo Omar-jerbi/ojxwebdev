@@ -1,5 +1,7 @@
+import { ExEntry } from './ExEntry';
 import Step from '@/app/components/Step/Step';
 import './Work.scss'
+import Image from 'next/image';
 
 
 export default function () {
@@ -10,7 +12,7 @@ export default function () {
                     <div className="text container mx-auto">
                         <h1 className='text-8xl font-normal w-fit mb-7 max-sm:text-xl '>Come vengono realizzati i progetti OJX</h1>
                         <h3 className='text-lg w-11/12 flex max-sm:text-sm h-fit'>
-                            <hr className='bg-[var(--font)] w-1 h-auto mr-1'/>
+                            <hr className='bg-[var(--font)] w-1 h-auto mr-1' />
                             <div>
                                 Per la realizzazione di un progetto seguiamo una catena ben determinata e ben documentata di steps
                                 dove ad ogni tappa il tuo sito assumerà nuove funzionalità e nuovi dettagli grafici
@@ -24,7 +26,7 @@ export default function () {
 
             <div className="center">
 
-                <hr className='my-10 bg-[var(--font)] border-0' style={{height:"1px"}}/>
+                <hr className='my-10 bg-[var(--font)] border-0' style={{ height: "1px" }} />
 
                 <div className="steps">
                     <Step arrow tit={"La tua idea"} svg={
@@ -122,7 +124,7 @@ export default function () {
                         } />
                 </div>
 
-                <hr className='my-10 bg-[var(--font)]  border-0' style={{height:"1px"}}/>
+                <hr className='my-10 bg-[var(--font)]  border-0' style={{ height: "1px" }} />
 
                 <div className="infos">
                     <div>
@@ -132,6 +134,24 @@ export default function () {
                         Questa è la fase principale del progetto.
                     </div>
                 </div>
+
+
+                <div className="ps relative mt-60">
+                    <div className="text-[200px] max-sm:text-[50px]">
+                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'>Progetti realizzati</h1>
+                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'>Progetti realizzati</h1>
+                        <h1 className='-top-40 left-10 absolute opacity-20'>Progetti realizzati</h1>
+                    </div>
+
+
+                    <div className="pt-40 grid grid-cols-4 gap-y-5 justify-items-center max-sm:py-0">
+                        <ExEntry tit='RealTunisianHarissa.com' link='#' img1='/rth.JPG' img2='/Cattura.JPG' />
+                        <ExEntry link='#' tit='MeruMeals.com' img1='/mm.JPG' img2='/mmR.jpg' />
+                        <ExEntry link='#' tit='OJXacademy.com' img1='/ojxa.JPG' img2='/ojxaR.jpg' />
+
+                    </div>
+                </div>
+
 
 
             </div>
