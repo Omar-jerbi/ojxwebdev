@@ -4,26 +4,19 @@ import './Work.scss'
 
 export default function () {
     return (
-        <div className="work">
-
-
+        <div className="work max-sm:mt-32">
             <div className="top">
-                <div className="img">
-                    {/* <img src="/work.jpg" alt="" /> */}
-                </div>
-                <div className="text">
-                    <div className="val">
-                        <span className='tit'>
-                            Per la realizzazione di un progetto seguiamo una catena ben determinata e ben documentata di steps
-                            dove ad ogni tappa il tuo sito assumerà nuove funzionalità e nuovi dettagli grafici
-                        </span>
+                <div className="img flex justify-center items-center">
+                    <div className="text container mx-auto">
+                        <h1 className='text-8xl font-normal w-fit mb-7 max-sm:text-xl '>Come vengono realizzati i progetti OJX</h1>
+                        <h3 className='text-lg w-11/12 flex max-sm:text-sm h-fit'>
+                            <hr className='bg-[var(--font)] w-1 h-auto mr-1'/>
+                            <div>
+                                Per la realizzazione di un progetto seguiamo una catena ben determinata e ben documentata di steps
+                                dove ad ogni tappa il tuo sito assumerà nuove funzionalità e nuovi dettagli grafici
+                            </div>
+                        </h3>
                     </div>
-                </div>
-                <div className="title">
-                    <div className="val">
-                        <span className="bigtit">Come vengono realizzati i progetti OJX</span>
-                    </div>
-                    <div className=""></div>
                 </div>
             </div>
 
@@ -31,9 +24,7 @@ export default function () {
 
             <div className="center">
 
-
-
-                <hr />
+                <hr className='my-10 bg-[var(--font)] border-0' style={{height:"1px"}}/>
 
                 <div className="steps">
                     <Step arrow tit={"La tua idea"} svg={
@@ -131,7 +122,7 @@ export default function () {
                         } />
                 </div>
 
-                <hr />
+                <hr className='my-10 bg-[var(--font)]  border-0' style={{height:"1px"}}/>
 
                 <div className="infos">
                     <div>

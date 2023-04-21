@@ -13,7 +13,7 @@ export default function SectionHome(props: props) {
     return (
         <div className={"sectionhome" + (props.reverse ? " rev" : '')}>
             <div className="text">
-                <article>
+                <article className='py-4 px-6 max-sm:px-2'>
                     {props.text}
                 </article>
             </div>

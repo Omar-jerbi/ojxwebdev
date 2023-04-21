@@ -45,7 +45,7 @@ export default function () {
                         <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-0 top-96">
                             <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-96"></div>
                         </div>
-                        <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-0 top-"></div>
+                        <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-[580px] top-[580px]"></div>
                     </div>
                 </div>
             </div>

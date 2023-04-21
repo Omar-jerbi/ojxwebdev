@@ -9,8 +9,8 @@ export default function () {
     return (
         <div className="services">
             <LongSection text={
-                <span className='tit'>
-                    <b style={{ color: 'var(--red)' }}>"Le tue idee, il tuo sito"</b> questo è l'approccio OJX!
+                <span className='tit font-extralight text-start'>
+                    <b>"Le tue idee, il tuo sito"</b> questo è l'approccio OJX!
                     <br />
                     Siti web professionali che ricalcano
                     l'immaginazione del cliente usando le ultime tecnologie
