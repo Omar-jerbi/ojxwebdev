@@ -9,16 +9,50 @@ import './WebDev/About/About.scss'
 export default function () {
     return (
         <div className="home">
-            <div className="banner">
-                <div className="tit">
-                    <div className="val">
-                        <h1 style={{ all: 'unset' }}>Sviluppiamo il<span> TUO </span>sito web!</h1>
+            <div className="hero relative flex flex-col justify-center">
+                <div className="text tracking-[0.2rem] ml-48 max-sm:ml-2 max-sm:tracking-wide">
+                    <h1 className='mb-9 text-8xl font-normal w-fit max-sm:text-3xl max-sm:mb-3'>Sviluppiamo il<span className='font-semibold'> tuo </span>sito web</h1>
+                    <div className="w-max text-end">
+                        <h2 className='mb-7 text-4xl font-normal  max-sm:text-xl max-sm:mb-2'>Solo le migliori tecnologie</h2>
+                        <h2 className='text-4xl font-normal  max-sm:text-lg'>...per i migliori risultati</h2>
+                    </div>
+                </div>
+
+
+                <div className="bttts ml-48 flex gap-10 absolute bottom-24 max-sm:ml-0 flex-wrap max-sm:bottom-8 max-sm:w-full pr-2 justify-end">
+                    <div>
+                        <Link className='text-lg font-semibold py-4 px-8 bg-[var(--grey)] rounded-lg text-white' href={"/WebDev/Contacts"}>
+                            Vai ai contatti
+                        </Link>
+                    </div>
+
+                    <div>
+                        <Link className='text-lg font-semibold border border-[var(--grey)] py-4 px-2 rounded-lg text-[var(--grey)]' href={'https://ojxacademy.com'} target="_blank">
+                            Visita OJX Academy
+                        </Link>
+                    </div>
+                </div>
+
+                <div className="bga absolute h-full w-4/6 z-0 right-0 max-sm:w-full">
+                    <div className="max-sm:hidden">
+                        <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-0"></div>
+                        <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-96">
+                            <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-96"></div>
+                        </div>
+                        <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-48 top-48">
+                            <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-96"></div>
+                        </div>
+                        <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-0 top-96">
+                            <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-96"></div>
+                        </div>
+                        <div className="absolute bg-[var(--bg)] h-48 w-48 z-0 left-0 top-"></div>
                     </div>
                 </div>
             </div>
 
 
             <div className="center">
+                <div className="mt-56"></div>
                 <SectionHome imgsrc='/abouthome.jpg' text={
                     <span id='sizereact'>Utilizzando le tecnologie più avanzate sul mercato, il tuo sito verrà sviluppato seguendo le TUE idee.</span>
                 }
@@ -236,24 +270,6 @@ export default function () {
                     }
                 />
 
-
-                <div className="btts">
-                    <div>
-                        <button>
-                            <Link href={"/WebDev/Contacts"}>
-                                Vai ai contatti
-                            </Link>
-                        </button>
-                    </div>
-
-                    <div>
-                        <button>
-                            <Link href={'https://ojxacademy.com'} target="_blank">
-                                Visita OJX Academy
-                            </Link>
-                        </button>
-                    </div>
-                </div>
 
             </div>
         </div >

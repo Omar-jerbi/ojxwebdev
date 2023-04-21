@@ -3,8 +3,8 @@ import './Footer.scss'
 export default function Footer() {
   return (
     <footer className='footer'>
-      <div className="text">
-        OJXwebdev 2023
+      <div className="text" style={{fontSize:"0.8rem"}}>
+        OJXwebdev 2023  -  P.IVA: 01879540092
       </div>
       <div className="icons">
         <a href="https://t.me/OJXwebdev" target='_blank'>

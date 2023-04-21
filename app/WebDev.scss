@@ -1,58 +1,19 @@
 .home {
-    .banner {
-        position: relative;
-        margin-bottom: 100px;
-        display: flex;
+    .hero{
         height: calc(100vh - 100px);
 
-        img {
-            width: 100%;
-            object-fit: cover;
-            border-top: none;
-            border-radius: 0 0 5px 5px;
 
-        }
-
-
-        .tit {
-            position: absolute;
-            background-color: transparent;
-            top: 0;
-            height: 100%;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
+        .bga{
             background-color: var(--bg);
-            opacity: 1;
+            opacity: 0.3;
             background-image: linear-gradient(30deg, #5057e3 12%, transparent 12.5%, transparent 87%, #5057e3 87.5%, #5057e3), linear-gradient(150deg, #5057e3 12%, transparent 12.5%, transparent 87%, #5057e3 87.5%, #5057e3), linear-gradient(30deg, #5057e3 12%, transparent 12.5%, transparent 87%, #5057e3 87.5%, #5057e3), linear-gradient(150deg, #5057e3 12%, transparent 12.5%, transparent 87%, #5057e3 87.5%, #5057e3), linear-gradient(60deg, #5057e377 25%, transparent 25.5%, transparent 75%, #5057e377 75%, #5057e377), linear-gradient(60deg, #5057e377 25%, transparent 25.5%, transparent 75%, #5057e377 75%, #5057e377);
-            background-size: 68px 119px;
-            background-position: 0 0, 0 0, 34px 60px, 34px 60px, 0 0, 34px 60px;
+            background-size: 140px 240px;
+            background-position: 0 0, 0 0, 70px 120px, 70px 120px, 0 0, 70px 120px;
 
             transition: all 500ms;
-
-            .val {
-                background-color: var(--bg);
-                color: var(--font);
-                padding: 20px 0;
-                font-size: max(3cqw, 2rem);
-                width: 100%;
-                text-align: center;
-                border: 2px solid var(--font);
-                border-right: none;
-                border-left: none;
-
-                span {
-                    color: var(--red);
-                    font-weight: 600;
-                }
-            }
-
-
         }
-
     }
+
 
     .servs {
         display: flex;

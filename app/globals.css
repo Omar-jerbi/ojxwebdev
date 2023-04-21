@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat.ttf);
+}
+
+
 :root {
   /* light palette */
   --font: #001011;
@@ -8,12 +18,12 @@
   --imgB: 1;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat;
 
   color: var(--font);
   background-color: var(--bg);
