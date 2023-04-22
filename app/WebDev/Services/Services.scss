@@ -1,36 +1,10 @@
 .services {
-    .longsection {
-        .text {
-            width: 100% !important;
-        }
-
-        .content {
-            transition: all 500ms;
-
-            background-color: var(--bg);
-            opacity: 1;
-            background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--bg) 36px), repeating-linear-gradient(#9d1b7255, #9d1b72);
-        }
-    }
-
-    .sectionhome {
-        margin-bottom: 0;
-    }
-
     #bg {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        background-color: #00eeff38;
-        border-radius: 5px;
-        margin: 40px 0;
-        padding: 0;
+        transition: all 500ms;
+        z-index: -1;
 
-        svg {
-            max-width: 900px !important;
-            min-width: 400px !important;
-            scale: 0.7;
-        }
+        background-color: var(--bg);
+        opacity: 0.3;
+        background-image: repeating-radial-gradient(circle at 0 0, transparent 0, var(--bg) 36px), repeating-linear-gradient(#9d1b7255, #9d1b72);
     }
 }
