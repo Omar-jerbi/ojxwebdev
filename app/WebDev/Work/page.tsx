@@ -145,9 +145,10 @@ export default function () {
 
 
                     <div className="pt-40 grid grid-cols-4 gap-y-5 justify-items-center max-sm:py-0">
-                        <ExEntry tit='RealTunisianHarissa.com' link='#' img1='/rth.JPG' img2='/Cattura.JPG' />
-                        <ExEntry link='#' tit='MeruMeals.com' img1='/mm.JPG' img2='/mmR.jpg' />
-                        <ExEntry link='#' tit='OJXacademy.com' img1='/ojxa.JPG' img2='/ojxaR.jpg' />
+                        <ExEntry tit='RealTunisianHarissa.com' link='#' img1='/rth.jpg' img2='/Cattura.jpg' />
+                        <ExEntry link='#' tit='MeruMeals.com' img1='/mm.jpg' img2='/mmR.jpg' />
+                        <ExEntry link='#' tit='OJXacademy.com' img1='/ojxa.jpg' img2='/ojxaR.jpg' />
+                        <ExEntry link='#' tit='bloGG.it' img1='/blog.jpg' img2='/blogR.jpg' />
 
                     </div>
                 </div>
