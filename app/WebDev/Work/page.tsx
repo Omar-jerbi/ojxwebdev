@@ -154,6 +154,20 @@ export default function () {
                 </div>
 
 
+                <div className="ps relative mt-60">
+                    <div className="text-[200px] max-sm:text-[50px]">
+                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'>Desing in sviluppo</h1>
+                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'>Desing in sviluppo</h1>
+                        <h1 className='-top-40 left-10 absolute opacity-20'>Desing in sviluppo</h1>
+                    </div>
+
+
+                    <div className="pt-40 grid grid-cols-4 gap-y-5 justify-items-center max-sm:py-0">
+                        <ExEntry enlarge tit='Sito per gallery contemporanea' img1='/gal.JPG' />
+                        <ExEntry enlarge tit='Store online di orologi' img1='/tt.jpg' />
+                    </div>
+                </div>
+
 
             </div>
         </div>
