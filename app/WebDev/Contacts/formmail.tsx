@@ -1,5 +1,6 @@
 "use client"
 
+import Translatable from "@/app/components/Translatable/Translatable"
 import { useState } from "react"
 import swal from "sweetalert"
 
@@ -41,17 +42,17 @@ export function Formmail() {
     return (
         <div className="formmail">
             <div className="tit">
-                Oppure scrivi direttamente qui il tuo messaggio:
+                <Translatable id="c.3" />:
             </div>
             <div className="form">
-                <input type="text" placeholder="La tua email..." onChange={(e) => smail(e.target.value)} />
-                <textarea placeholder="Il tuo messaggio..." onChange={(e) => smsg(e.target.value)} />
+                <input type="text" placeholder="Email..." onChange={(e) => smail(e.target.value)} />
+                <textarea placeholder="Text..." onChange={(e) => smsg(e.target.value)} />
             </div>
             <div className="btt">
                 {l ?
                     "..."
                     :
-                    <button onClick={() => send()}><span>Invia</span></button>
+                    <button onClick={() => send()}><Translatable id="send" /></button>
                 }
             </div>
         </div>

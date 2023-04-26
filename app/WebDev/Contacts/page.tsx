@@ -1,6 +1,7 @@
 import { Formmail } from './formmail';
 import Paragraph from "@/app/components/Paragraph/Paragraph";
 import './Contacts.scss'
+import Translatable from '@/app/components/Translatable/Translatable';
 
 export default function () {
     return (
@@ -9,14 +10,14 @@ export default function () {
             <Paragraph
                 text={
                     <span>
-                        Per informazioni e richieste di preventivi: <a href="mailto:info@ojxwebdev.com">info@ojxwebdev.com</a>
+                        <Translatable id='c.1'/>: <a href="mailto:info@ojxwebdev.com">info@ojxwebdev.com</a>
                     </span>
                 }
             />
             <Paragraph
                 text={
                     <span>
-                        Per informazioni sui corsi OJX: <a href="https://ojxacademy.com" target='_blank'>ojxacademy.com</a>
+                        <Translatable id='c.2'/>: <a href="https://ojxacademy.com" target='_blank'>ojxacademy.com</a>
                     </span>
                 }
             />

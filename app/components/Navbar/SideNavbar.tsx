@@ -3,8 +3,12 @@
 import Link from 'next/link'
 import './SideNavbar.scss'
 import { useEffect } from 'react'
+import { useLang } from '@/app/contexts/LangContext'
+import Translatable from '../Translatable/Translatable'
 
 export default function SideNavbar() {
+
+    const { sl } = useLang()
 
     useEffect(() => {
         document.querySelectorAll('.link').forEach(e => {
@@ -38,23 +42,24 @@ export default function SideNavbar() {
 
     return (
         <nav className='sidenavbar'>
+            <div className="flex flex-col justify-center items-center gap-5">
+                <button onClick={() => sl("en")}>EN</button>                
+                <button onClick={() => sl("it")}>IT</button>
+            </div>
             <div id='Home' className="link selected">
                 <Link href={"/"}>Home</Link>
                 <hr />
             </div>
             <div id='Services' className="link">
-                {/* + academy*/}
-                <Link href={"/WebDev/Services"}>Servizi</Link>
+                <Link href={"/WebDev/Services"}><Translatable id='servs' /></Link>
                 <hr />
             </div>
             <div id='Work' className="link">
-                {/* + lavora con noi */}
-                <Link href={"/WebDev/Work"}>Metodi di lavoro</Link>
+                <Link href={"/WebDev/Work"}><Translatable id='meths' /></Link>
                 <hr />
             </div>
             <div id='Contacts' className="link">
-                {/* + form + mails(webdev+academy) + phone*/}
-                <Link href={"/WebDev/Contacts"}>Contatti</Link>
+                <Link href={"/WebDev/Contacts"}><Translatable id='contacts' /></Link>
                 <hr />
             </div>
             <div className="link">

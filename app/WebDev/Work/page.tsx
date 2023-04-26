@@ -1,7 +1,7 @@
 import { ExEntry } from './ExEntry';
 import Step from '@/app/components/Step/Step';
 import './Work.scss'
-import Image from 'next/image';
+import Translatable from '@/app/components/Translatable/Translatable';
 
 
 export default function () {
@@ -10,12 +10,11 @@ export default function () {
             <div className="top">
                 <div className="img flex justify-center items-center">
                     <div className="text container mx-auto">
-                        <h1 className='text-8xl font-normal w-fit mb-7 max-sm:text-xl '>Come vengono realizzati i progetti OJX</h1>
+                        <h1 className='text-8xl font-normal w-fit mb-7 max-sm:text-xl'><Translatable id='work.1' /></h1>
                         <h3 className='text-lg w-11/12 flex max-sm:text-sm h-fit'>
                             <hr className='bg-[var(--font)] w-1 h-auto mr-1' />
                             <div>
-                                Per la realizzazione di un progetto seguiamo una catena ben determinata e ben documentata di steps
-                                dove ad ogni tappa il tuo sito assumerà nuove funzionalità e nuovi dettagli grafici
+                                <Translatable id='work.2' />
                             </div>
                         </h3>
                     </div>
@@ -29,7 +28,7 @@ export default function () {
                 <hr className='my-10 bg-[var(--font)] border-0' style={{ height: "1px" }} />
 
                 <div className="steps">
-                    <Step arrow tit={"La tua idea"} svg={
+                    <Step arrow tit={<Translatable id='work.3' />} svg={
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                             <path d="M16,4c-4.963,0-9,4.038-9,9c0,3.186,1.781,5.278,3.212,6.959C11.172,21.085,12,22.059,12,23v5h3
 	v1h2v-1h3v-5c0-0.941,0.828-1.915,1.788-3.041C23.219,18.278,25,16.186,25,13C25,8.038,20.963,4,16,4z M18,26h-4v-2h4V26z
@@ -47,13 +46,13 @@ export default function () {
                         } />
 
                     <Step
-                        tit={"Progettazione delle funzionalità"}
+                        tit={<Translatable id='work.4' />}
                         arrow
                         svg={
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M308.5 135.3c7.1-6.3 9.9-16.2 6.2-25c-2.3-5.3-4.8-10.5-7.6-15.5L304 89.4c-3-5-6.3-9.9-9.8-14.6c-5.7-7.6-15.7-10.1-24.7-7.1l-28.2 9.3c-10.7-8.8-23-16-36.2-20.9L199 27.1c-1.9-9.3-9.1-16.7-18.5-17.8C173.9 8.4 167.2 8 160.4 8h-.7c-6.8 0-13.5 .4-20.1 1.2c-9.4 1.1-16.6 8.6-18.5 17.8L115 56.1c-13.3 5-25.5 12.1-36.2 20.9L50.5 67.8c-9-3-19-.5-24.7 7.1c-3.5 4.7-6.8 9.6-9.9 14.6l-3 5.3c-2.8 5-5.3 10.2-7.6 15.6c-3.7 8.7-.9 18.6 6.2 25l22.2 19.8C32.6 161.9 32 168.9 32 176s.6 14.1 1.7 20.9L11.5 216.7c-7.1 6.3-9.9 16.2-6.2 25c2.3 5.3 4.8 10.5 7.6 15.6l3 5.2c3 5.1 6.3 9.9 9.9 14.6c5.7 7.6 15.7 10.1 24.7 7.1l28.2-9.3c10.7 8.8 23 16 36.2 20.9l6.1 29.1c1.9 9.3 9.1 16.7 18.5 17.8c6.7 .8 13.5 1.2 20.4 1.2s13.7-.4 20.4-1.2c9.4-1.1 16.6-8.6 18.5-17.8l6.1-29.1c13.3-5 25.5-12.1 36.2-20.9l28.2 9.3c9 3 19 .5 24.7-7.1c3.5-4.7 6.8-9.5 9.8-14.6l3.1-5.4c2.8-5 5.3-10.2 7.6-15.5c3.7-8.7 .9-18.6-6.2-25l-22.2-19.8c1.1-6.8 1.7-13.8 1.7-20.9s-.6-14.1-1.7-20.9l22.2-19.8zM112 176a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM504.7 500.5c6.3 7.1 16.2 9.9 25 6.2c5.3-2.3 10.5-4.8 15.5-7.6l5.4-3.1c5-3 9.9-6.3 14.6-9.8c7.6-5.7 10.1-15.7 7.1-24.7l-9.3-28.2c8.8-10.7 16-23 20.9-36.2l29.1-6.1c9.3-1.9 16.7-9.1 17.8-18.5c.8-6.7 1.2-13.5 1.2-20.4s-.4-13.7-1.2-20.4c-1.1-9.4-8.6-16.6-17.8-18.5L583.9 307c-5-13.3-12.1-25.5-20.9-36.2l9.3-28.2c3-9 .5-19-7.1-24.7c-4.7-3.5-9.6-6.8-14.6-9.9l-5.3-3c-5-2.8-10.2-5.3-15.6-7.6c-8.7-3.7-18.6-.9-25 6.2l-19.8 22.2c-6.8-1.1-13.8-1.7-20.9-1.7s-14.1 .6-20.9 1.7l-19.8-22.2c-6.3-7.1-16.2-9.9-25-6.2c-5.3 2.3-10.5 4.8-15.6 7.6l-5.2 3c-5.1 3-9.9 6.3-14.6 9.9c-7.6 5.7-10.1 15.7-7.1 24.7l9.3 28.2c-8.8 10.7-16 23-20.9 36.2L315.1 313c-9.3 1.9-16.7 9.1-17.8 18.5c-.8 6.7-1.2 13.5-1.2 20.4s.4 13.7 1.2 20.4c1.1 9.4 8.6 16.6 17.8 18.5l29.1 6.1c5 13.3 12.1 25.5 20.9 36.2l-9.3 28.2c-3 9-.5 19 7.1 24.7c4.7 3.5 9.5 6.8 14.6 9.8l5.4 3.1c5 2.8 10.2 5.3 15.5 7.6c8.7 3.7 18.6 .9 25-6.2l19.8-22.2c6.8 1.1 13.8 1.7 20.9 1.7s14.1-.6 20.9-1.7l19.8 22.2zM464 304a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" /></svg>
                         } />
                     <Step
-                        tit={<span>Sviluppo <span style={{ color: "var(--red)" }}>*</span></span>}
+                        tit={<span><Translatable id='work.5' /> <span style={{ color: "var(--red)" }}>*</span></span>}
                         arrow
                         svg={
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" /></svg>
@@ -65,7 +64,7 @@ export default function () {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M160 32c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32c17.7 0 32 14.3 32 32V288c0 17.7-14.3 32-32 32c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32c-17.7 0-32-14.3-32-32V64c0-17.7 14.3-32 32-32zM32 448H320c70.7 0 128-57.3 128-128s-57.3-128-128-128V128c106 0 192 86 192 192c0 49.2-18.5 94-48.9 128H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H320 32c-17.7 0-32-14.3-32-32s14.3-32 32-32zm80-64H304c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16z" /></svg>
                         } />
                     <Step
-                        tit={"Consegna prodotto finito"}
+                        tit={<Translatable id='work.6' />}
                         svg={
                             <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" >
                                 <g>
@@ -129,18 +128,16 @@ export default function () {
                 <div className="infos">
                     <div>
                         <span style={{ color: "var(--red)" }}>*</span>
-                        La fase di sviluppo comprende la realizzazione sia dell'interfaccia grafica sia della logica del tuo sito web:
-                        dalla messa in funzione del database alla gestione dei dati degli utilizzatori (qual'ora il tuo sito necessitasse di tali funzionalità).
-                        Questa è la fase principale del progetto.
+                        <Translatable id='work.7' />
                     </div>
                 </div>
 
 
                 <div className="ps relative mt-60">
                     <div className="text-[200px] max-sm:text-[50px]">
-                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'>Progetti realizzati</h1>
-                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'>Progetti realizzati</h1>
-                        <h1 className='-top-40 left-10 absolute opacity-20'>Progetti realizzati</h1>
+                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'><Translatable id='work.8'/></h1>
+                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'><Translatable id='work.8'/></h1>
+                        <h1 className='-top-40 left-10 absolute opacity-20'><Translatable id='work.8'/></h1>
                     </div>
 
 
@@ -156,9 +153,9 @@ export default function () {
 
                 <div className="ps relative mt-60">
                     <div className="text-[200px] max-sm:text-[50px]">
-                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'>Desing in sviluppo</h1>
-                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'>Desing in sviluppo</h1>
-                        <h1 className='-top-40 left-10 absolute opacity-20'>Desing in sviluppo</h1>
+                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'><Translatable id='work.9'/></h1>
+                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'><Translatable id='work.9'/></h1>
+                        <h1 className='-top-40 left-10 absolute opacity-20'><Translatable id='work.9'/></h1>
                     </div>
 
 

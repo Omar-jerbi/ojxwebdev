@@ -2,6 +2,7 @@ import LongSection from '@/app/components/LongSection/LongSection';
 import './Services.scss'
 import Link from 'next/link';
 import { Card } from '@/app/components/Cards/Card';
+import Translatable from '@/app/components/Translatable/Translatable';
 
 
 
@@ -13,15 +14,11 @@ export default function () {
                 <div id='bg' className="absolute w-full h-full top-0 left-0"></div>
                 <div className="text container mx-auto text-[var(--font)]">
                     <div className='font-semibold text-3xl'>
-                        "Le tue idee, il tuo sito": questo è l'approccio OJX!
+                        <Translatable id='servs.1'/>
                     </div>
                     <hr className='border-0 h-1 w-1/3 bg-[var(--font)] my-5'/>
-                    <div className='font-normal text-xl'>
-                        Siti web professionali che ricalcano
-                        l'immaginazione del cliente usando le ultime tecnologie
-                        disponibili sul mercato. A differenza dai tool "fai da te" per lo sviluppo di una
-                        applicazione web, affidandoti ad OJX avrai il pieno controllo sul
-                        risultato finale del tuo progetto.
+                    <div className='font-normal text-xl'>                        
+                        <Translatable id='servs.2'/>
                     </div>
                 </div>
             </div>
@@ -105,15 +102,9 @@ export default function () {
                                 <path opacity="0.21" d="M223.181 831.522C222.909 831.811 222.61 832.075 222.289 832.31C216.171 837.124 206.412 834.901 200.572 827.4C199.866 826.478 199.229 825.507 198.666 824.492C195.034 817.896 195.532 810.245 200.103 805.865C200.366 805.57 200.66 805.305 200.981 805.073C207.128 800.313 216.842 802.538 222.724 810.051C223.418 810.951 224.046 811.9 224.603 812.891C228.274 819.513 227.767 827.192 223.181 831.522Z" fill="white" />
                             </g>
                         </svg>
-
-
-
                     }
                     txt={
-                        <span>
-                            Dalle fasi iniziali di progettazione all'ottimizzazione per i motori di ricerca, non ti dovrai preoccupare degli aspetti più tecnici:
-                            Per i primi 12 mesi, l'hosting e l'assegnazione del dominio te le regala OJX!
-                        </span>
+                        <Translatable id='servs.3'/>
                     }
                 />
 
@@ -222,14 +213,9 @@ export default function () {
                             <path d="M178.442 1115.22L443.366 1061.32" stroke="var(--font)" stroke-width="3.97" stroke-miterlimit="10" />
                             <path d="M1110 925.695L1351.65 876.529" stroke="var(--font)" stroke-width="3.97" stroke-miterlimit="10" />
                         </svg>
-
-
                     }
                     txt={
-                        <span>
-                            Non ti dovrai preoccupare di acquistare domini, allestire mail box o gestire l'hosting delle tue pagine.
-                            Il tuo sito verra allestito completo di tutto il necessario per essere acceduto dai pricipali browser e raggiunto dai motori di ricerca
-                        </span>
+<Translatable id='servs.4'/>
                     }
                 />
 
@@ -302,14 +288,12 @@ export default function () {
                             <path d="M414.453 982.059C414.381 982.639 414.193 983.197 413.901 983.704C413.61 984.211 413.22 984.656 412.754 985.014C412.288 985.371 411.755 985.633 411.185 985.788C410.617 985.941 410.021 985.982 409.435 985.909L304.992 973.085C301.88 969.057 301.312 963.892 303.942 960.486L405.601 972.968C407.6 973.212 409.485 974.027 411.026 975.313C412.566 976.6 413.694 978.3 414.271 980.208C414.459 980.807 414.521 981.437 414.453 982.059Z" fill="#D7E8F0" />
                             <path d="M322.299 975.21C322.154 975.433 321.983 975.639 321.791 975.824C318.179 979.68 311.382 979.214 306.596 974.814C306.02 974.276 305.485 973.699 304.992 973.085C301.88 969.056 301.312 963.892 303.942 960.485C304.095 960.268 304.266 960.062 304.451 959.871C308.094 956.054 314.892 956.509 319.678 960.909C320.245 961.439 320.774 962.008 321.261 962.612C324.444 966.649 324.939 971.828 322.299 975.21Z" fill="white" />
                         </svg>
-
-
                     }
                     txt={
                         <span>
-                            Vuoi imparare l'arte dello sviluppo web o arricchire le tuo competenze personali in materia di programmazione internet? Dai un'occhiata alla web academy OJX!
+                            <Translatable id='servs.5'/>
                             <br />
-                            <Link style={{ color: "var(--grey)" }} href={'https://ojxacademy.com'} target='_blank'>Vai a OJX academy...</Link>
+                            <Link style={{ color: "var(--grey)" }} href={'https://ojxacademy.com'} target='_blank'>OJXacademy.com</Link>
                         </span>
                     }
                 />
