@@ -1,6 +1,9 @@
 "use client"
 
 import Translatable from "@/app/components/Translatable/Translatable"
+import { getTranslation } from "@/app/components/Translatable/getTranslation"
+import { useLang } from "@/app/contexts/LangContext"
+import { dics } from "@/app/locales/dics"
 import { useState } from "react"
 import swal from "sweetalert"
 
@@ -10,8 +13,10 @@ export function Formmail() {
     const [msg, smsg] = useState('')
     const [l, sl] = useState(false)
 
+    const c = useLang()
 
     const send = async () => {
+
         if (mail != '' && msg != '') {
             sl(true)
 
@@ -34,7 +39,7 @@ export function Formmail() {
             })
                 .then(res => {
                     sl(false)
-                    swal("Messaggio inviato con successo. Ti invieremo un e-mail di risposta prima possibile!")
+                    swal(c.l == dics.it ? "Messaggio inviato con successo. Ti invieremo un e-mail di risposta il prima possibile!" : "The message has been successfully sent. We will send you an email response as soon as possible!", "", "success")
                 })
         }
     }

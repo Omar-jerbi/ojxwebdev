@@ -42,9 +42,9 @@ export default function SideNavbar() {
 
     return (
         <nav className='sidenavbar'>
-            <div className="flex flex-col justify-center items-center gap-5">
-                <button onClick={() => sl("en")}>EN</button>                
-                <button onClick={() => sl("it")}>IT</button>
+            <div className="flex flex-col justify-center items-center gap-5 max-sm:flex-row">
+                <button className='p-2 max-sm:text-sm' onClick={() => sl("en")}>EN</button>                
+                <button className='p-2 max-sm:text-sm' onClick={() => sl("it")}>IT</button>
             </div>
             <div id='Home' className="link selected">
                 <Link href={"/"}>Home</Link>
@@ -63,7 +63,6 @@ export default function SideNavbar() {
                 <hr />
             </div>
             <div className="link">
-                {/* link esterno */}
                 <Link href={'https://ojxacademy.com'} target="_blank">OJXacademy</Link>
                 <hr />
             </div>
