@@ -134,5 +134,9 @@
     {
         "k": "other",
         "v": "Molti altri"
+    },
+    {
+        "k": "alert",
+        "v": "Visualizzazione design disponibile solo su dispositivi tablet e desktop"
     }
 ]

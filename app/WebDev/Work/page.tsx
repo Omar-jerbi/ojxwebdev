@@ -134,10 +134,10 @@ export default function () {
 
 
                 <div className="ps relative mt-60">
-                    <div className="text-[200px] max-sm:text-[50px]">
-                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'><Translatable id='work.8'/></h1>
-                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'><Translatable id='work.8'/></h1>
-                        <h1 className='-top-40 left-10 absolute opacity-20'><Translatable id='work.8'/></h1>
+                    <div className="text-[13cqmin]">
+                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'><Translatable id='work.8' /></h1>
+                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'><Translatable id='work.8' /></h1>
+                        <h1 className='-top-40 left-10 absolute opacity-20'><Translatable id='work.8' /></h1>
                     </div>
 
 
@@ -146,16 +146,15 @@ export default function () {
                         <ExEntry link='#' tit='MeruMeals.com' img1='/mm.JPG' img2='/mmR.JPG' />
                         <ExEntry link='#' tit='OJXacademy.com' img1='/ojxa.JPG' img2='/ojxaR.JPG' />
                         <ExEntry link='#' tit='bloGG.it' img1='/blog.JPG' img2='/blogR.JPG' />
-
                     </div>
                 </div>
 
 
                 <div className="ps relative mt-60">
-                    <div className="text-[200px] max-sm:text-[50px]">
-                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'><Translatable id='work.9'/></h1>
-                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'><Translatable id='work.9'/></h1>
-                        <h1 className='-top-40 left-10 absolute opacity-20'><Translatable id='work.9'/></h1>
+                    <div className="text-[13cqmin]">
+                        <h1 className='top-0 max-sm:hidden left-0  absolute opacity-5'><Translatable id='work.9' /></h1>
+                        <h1 className='-top-20 max-sm:hidden left-5  absolute opacity-10'><Translatable id='work.9' /></h1>
+                        <h1 className='-top-40 left-10 absolute opacity-20'><Translatable id='work.9' /></h1>
                     </div>
 
 

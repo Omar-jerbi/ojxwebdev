@@ -134,5 +134,9 @@
     {
         "k": "other",
         "v": "Many others"
+    },
+    {
+        "k": "alert",
+        "v": "Design view available on tablet and desktop devices only"
     }
 ]
