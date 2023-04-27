@@ -160,8 +160,9 @@ export default function () {
 
 
                     <div className="pt-40 grid grid-cols-4 gap-y-5 justify-items-center max-sm:py-0">
-                        <ExEntry enlarge tit='Sito per gallery contemporanea' img1='/gal.jpg' />
-                        <ExEntry enlarge tit='Store online di orologi' img1='/tt.jpg' />
+                        <ExEntry enlarge tit='GALLery' img1='/gal.jpg' />
+                        <ExEntry enlarge tit='TimeTravelers' img1='/tt.jpg' />
+                        <ExEntry enlarge tit='AJart' img1='/aj.jpg' />
                     </div>
                 </div>
 
