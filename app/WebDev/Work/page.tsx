@@ -162,6 +162,7 @@ export default function () {
                         <ExEntry enlarge tit='GALLery' img1='/gal.jpg' />
                         <ExEntry enlarge tit='TimeTravelers' img1='/tt.jpg' />
                         <ExEntry enlarge tit='AJart' img1='/aj.jpg' />
+                        <ExEntry enlarge tit='Eventis' img1='/eventis.jpg' />
                     </div>
                 </div>
 
