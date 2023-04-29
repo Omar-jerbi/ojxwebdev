@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import i from './favicon.png'
 import Image from "next/image";
 import { LangContextProvider } from "./contexts/LangContext";
+import Langs from "./components/Langs/Langs";
 
 
 
@@ -52,10 +53,11 @@ export default function RootLayout({
                         {children}
                     </main>
 
-                    {/* <ChatBox /> */}
+                    <Langs />
+
                     <Footer />
                 </body>
-                
+
             </LangContextProvider>
         </html >
 

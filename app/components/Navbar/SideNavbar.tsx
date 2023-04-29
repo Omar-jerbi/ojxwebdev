@@ -42,10 +42,6 @@ export default function SideNavbar() {
 
     return (
         <nav className='sidenavbar'>
-            <div className="flex flex-col justify-center items-center gap-5 max-sm:flex-row">
-                <button className='p-2 max-sm:text-sm' onClick={() => sl("en")}>EN</button>                
-                <button className='p-2 max-sm:text-sm' onClick={() => sl("it")}>IT</button>
-            </div>
             <div id='Home' className="link selected">
                 <Link href={"/"}>Home</Link>
                 <hr />
