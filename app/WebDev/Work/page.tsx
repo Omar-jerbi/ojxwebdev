@@ -4,6 +4,19 @@ import './Work.scss'
 import Translatable from '@/app/components/Translatable/Translatable';
 
 
+export const metadata = {
+    title: 'OJXwebdev | Design e sviluppo siti web profesisonali',
+    description: "Con OJXwebdev il tuo sito verrà sviluppato usando tecnologie avanzate che garamtiranno una resa ottimale di SEO e un'esperienza di utilizzo impeccabile",
+    keywords: [
+        "sito ecommerce",
+        "sito web portfolio",
+        "sito web business",
+        "design sito web",
+        "design sito internet",
+
+    ],
+}
+
 export default function () {
     return (
         <div className="work max-sm:mt-32">

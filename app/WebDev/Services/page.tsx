@@ -1,9 +1,19 @@
-import LongSection from '@/app/components/LongSection/LongSection';
 import './Services.scss'
 import Link from 'next/link';
 import { Card } from '@/app/components/Cards/Card';
 import Translatable from '@/app/components/Translatable/Translatable';
 
+
+export const metadata = {
+    title: 'OJXwebdev | Progettazione e sviluppo del tuo sito web',
+    description: 'I servizi offerti da OJXwebdev vanno dal design della UI delle tue pagine, allo sviluppo del sito web usando framework avanzati e tecniche di programmazione ottimizzate',
+    keywords: [
+        "React",
+        "svilppo sito web liguria",
+        "sito web albenga",
+        "programmatore liguria"
+    ],
+}
 
 
 export default function () {
@@ -14,11 +24,11 @@ export default function () {
                 <div id='bg' className="absolute w-full h-full top-0 left-0"></div>
                 <div className="text container mx-auto text-[var(--font)]">
                     <div className='font-semibold text-3xl'>
-                        <Translatable id='servs.1'/>
+                        <Translatable id='servs.1' />
                     </div>
-                    <hr className='border-0 h-1 w-1/3 bg-[var(--font)] my-5'/>
-                    <div className='font-normal text-xl'>                        
-                        <Translatable id='servs.2'/>
+                    <hr className='border-0 h-1 w-1/3 bg-[var(--font)] my-5' />
+                    <div className='font-normal text-xl'>
+                        <Translatable id='servs.2' />
                     </div>
                 </div>
             </div>
@@ -104,7 +114,7 @@ export default function () {
                         </svg>
                     }
                     txt={
-                        <Translatable id='servs.3'/>
+                        <Translatable id='servs.3' />
                     }
                 />
 
@@ -215,7 +225,7 @@ export default function () {
                         </svg>
                     }
                     txt={
-<Translatable id='servs.4'/>
+                        <Translatable id='servs.4' />
                     }
                 />
 
@@ -291,7 +301,7 @@ export default function () {
                     }
                     txt={
                         <span>
-                            <Translatable id='servs.5'/>
+                            <Translatable id='servs.5' />
                             <br />
                             <Link style={{ color: "var(--grey)" }} href={'https://ojxacademy.com'} target='_blank'>OJXacademy.com</Link>
                         </span>
