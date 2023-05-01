@@ -55,7 +55,7 @@ export default function () {
                 <div className="profile p-1 rounded-md my-32">
                     <div className="innerprofile bg-[var(--bg)] rounded-md grid grid-cols-3 gap-9 px-20 py-4 max-sm:px-4">
                         <div className="col-span-1 max-sm:col-span-3">
-                            <Image className='shadow shadow-[var(--font)] h-auto w-full rounded-md opacity-90' alt='me' src={'/me.jpeg'} height={700} width={700} />
+                            <Image className='shadow shadow-[var(--font)] h-auto w-full rounded-md opacity-90' alt='me' src={'/me.jpg'} height={700} width={700} />
                         </div>
                         <div className="col-span-2 max-sm:col-span-3 flex flex-col justify-center items-start gap-7">
                             <span className='text-3xl tracking-wider max-sm:text-lg'>
