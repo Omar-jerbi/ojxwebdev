@@ -138,5 +138,25 @@
     {
         "k": "alert",
         "v": "Design view available on tablet and desktop devices only"
+    },
+    {
+        "k": "w1",
+        "v": "It all starts with your idea! It will be our job to develop your vision into a beautiful, functional site that makes your company or product known to the whole world."
+    },
+    {
+        "k": "w2",
+        "v": "You will be able to see a first concrete preview of what your website will look like during the design phase. Ad-hoc tools will be used to create the graphic project and as a result a document with specifications and images will be created. The project will consequently be implemented in the following phases. In this phase your collaboration will be essential to be able to conceive the graphic design you want!"
+    },
+    {
+        "k": "w3",
+        "v": "Your site must not only be beautiful to look at, it must guarantee the best user experience for its visitors. In the UX design phase, the best solutions for carrying out the operations on your site will be studied and compared, as well as setting up the database, the various user profiles, hosting and domain..."
+    },
+    {
+        "k": "w4",
+        "v": "The testing phase includes, as the name suggests, all the operations for verifying the functioning, for fixing in case of problems and for optimizing wherever there was the possibility."
+    },
+    {
+        "k": "w5",
+        "v": "At the end of the project, your site will be permanently online to be reached by users from all over the world! SEO and content formatting operations will be carried out so as to be easily identifiable by users on the internet."
     }
 ]

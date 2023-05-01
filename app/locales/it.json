@@ -138,5 +138,25 @@
     {
         "k": "alert",
         "v": "Visualizzazione design disponibile solo su dispositivi tablet e desktop"
+    },
+    {
+        "k": "w1",
+        "v": "Inizia tutto dalla tua idea! Sarà compito nostro sviluppare la tua visione in un sito bello, funzionale e che faccia conoscere la tua azienda o i tuoi prodotto al mondo intero."
+    },
+    {
+        "k": "w2",
+        "v": "Potrai vedere una prima anteprima concreta di come sarà il tuo sito web durante la fase di design. Verranno utilizzati strumenti ad-hoc per realizzare il progetto grafico e come risultato verrà creato un documento con specifiche e immagini. Il progetto sarà conseguentemente implementato nella fasi successive. In questa fase la tua collaborazione sarà essenziale per riuscire ad ideare il design grafico che desideri!"
+    },
+    {
+        "k": "w3",
+        "v": "Il tuo sito non dovrà essere solo bello da vedere, dovrà garantire la migliore esperienza di utilizzo ai suoi visitatori. Nella fase di progettazione della UX, verranno studiate e comparate le migliori soluzioni per la realizzazione delle operazioni presenti nel tuo sito, oltre all'allestimento della base di dati, dei vari profili utente, dell'hosting e del dominio..."
+    },
+    {
+        "k": "w4",
+        "v": "La fase di testing comprende, come suggerisce il nome, tutte le operazioni di verifica del funzionamento, di fix in caso di problemi e di ottimizzazioni ovunque ce ne fosse la possibilità."
+    },
+    {
+        "k": "w5",
+        "v": "Al termine del progetto, il tuo sito sarà messo definitivamente online per essere raggiunto da utenti da tutto il mondo! Verranno compiute operazioni di SEO e di formattazione dei contenuti cosi da risultare facilemente individuabile dagli utenti su internet."
     }
 ]

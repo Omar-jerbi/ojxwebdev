@@ -12,10 +12,10 @@ export default function () {
         <div className="home overflow-x-hidden">
             <div className="hero relative flex flex-col justify-center">
                 <div className="text tracking-[0.2rem] ml-48 max-sm:ml-2 max-sm:tracking-wide">
-                    <h1 className='mb-9 text-8xl font-normal w-fit max-sm:text-3xl max-sm:mb-3'><Translatable id={"title"}/></h1>                    
+                    <h1 className='mb-9 text-8xl font-normal w-fit max-sm:text-3xl max-sm:mb-3'><Translatable id={"title"} /></h1>
                     <div className="w-max text-end">
-                        <h2 className='mb-7 text-4xl font-normal  max-sm:text-xl max-sm:mb-2'><Translatable id='sub1'/></h2>
-                        <h2 className='text-4xl font-normal  max-sm:text-lg'><Translatable id='sub2'/></h2>
+                        <h2 className='mb-7 text-4xl font-normal  max-sm:text-xl max-sm:mb-2'><Translatable id='sub1' /></h2>
+                        <h2 className='text-4xl font-normal  max-sm:text-lg'><Translatable id='sub2' /></h2>
                     </div>
                 </div>
 
@@ -23,13 +23,13 @@ export default function () {
                 <div className="bttts ml-48 flex gap-10 absolute bottom-24 max-sm:ml-0 flex-wrap max-sm:bottom-8 max-sm:w-full pr-2 justify-end">
                     <div>
                         <Link className='text-lg font-semibold py-4 px-8 bg-[var(--grey)] rounded-lg text-white' href={"/WebDev/Contacts"}>
-                            <Translatable id={"gotocontacts"}/>
+                            <Translatable id={"gotocontacts"} />
                         </Link>
                     </div>
 
                     <div>
                         <Link className='text-lg font-semibold border border-[var(--grey)] py-4 px-2 rounded-lg text-[var(--grey)]' href={'https://ojxacademy.com'} target="_blank">
-                            <Translatable id='gotoaca'/>
+                            <Translatable id='gotoaca' />
                         </Link>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ export default function () {
                         </div>
                         <div className="col-span-2 max-sm:col-span-3 flex flex-col justify-center items-start gap-7">
                             <span className='text-3xl tracking-wider max-sm:text-lg'>
-                                <Translatable id='me.pres'/>
+                                <Translatable id='me.pres' />
                             </span>
 
                             <hr className='border-0 bg-[var(--font)] opacity-70 w-1/2 h-1' />
@@ -71,7 +71,7 @@ export default function () {
                                     <svg className='fill-[var(--font)] hover:fill-[var(--red)] opacity-70 h-9 w-auto' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></svg>
                                 </Link>
                                 <Link title='https://www.instagram.com/ojxwebdev/' href={"https://www.instagram.com/ojxwebdev/"} target='_blank'>
-                                    <svg className='fill-[var(--font)] hover:fill-[var(--red)] opacity-70 h-9 w-auto'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                    <svg className='fill-[var(--font)] hover:fill-[var(--red)] opacity-70 h-9 w-auto' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></svg>
                                 </Link>
                             </div>
 
@@ -140,14 +140,17 @@ export default function () {
                         <path d="M352.679 436.083L353.744 436.825L352.71 438.389C352.661 437.622 352.65 436.851 352.679 436.083Z" fill="#353642" />
                         <path d="M525.594 615.625C545.031 616.521 561.657 598.364 562.731 575.071C563.805 551.779 548.92 532.168 529.485 531.272C510.048 530.377 493.423 548.533 492.348 571.826C491.274 595.12 506.159 614.728 525.594 615.625Z" fill="#414141" />
                     </svg>}
-                    txt={<Translatable id='home.1'/>}
+                    txt={<h3>
+                        <Translatable id='home.1' />
+                    </h3>
+                    }
                 />
             </div>
 
             <div className="servs w-full bg-slate-600">
                 <div className="container mx-auto py-24">
                     <div className="t text-3xl font-semibold text-[var(--font)] max-sm:text-lg">
-                        <Translatable id='home.2'/>
+                        <h3><Translatable id='home.2' /></h3>
                     </div>
 
                     <div className="ics flex justify-between pt-11 px-5">
@@ -160,19 +163,19 @@ export default function () {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM96 136c0-13.3 10.7-24 24-24c137 0 248 111 248 248c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-110.5-89.5-200-200-200c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24c83.9 0 152 68.1 152 152c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4-46.6-104-104-104c-13.3 0-24-10.7-24-24zm0 120a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" /></svg>
                         </div>
                         <div className="icon" title='Multilingua'>
-                            <label><Translatable id='mlang'/></label>
+                            <label><Translatable id='mlang' /></label>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z" /></svg>
                         </div>
                         <div className="icon" title='Portfolio'>
-                            <label><Translatable id='port'/></label>
+                            <label><Translatable id='port' /></label>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 32c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160zM396 138.7l96 144c4.9 7.4 5.4 16.8 1.2 24.6S480.9 320 472 320H328 280 200c-9.2 0-17.6-5.3-21.6-13.6s-2.9-18.2 2.9-25.4l64-80c4.6-5.7 11.4-9 18.7-9s14.2 3.3 18.7 9l17.3 21.6 56-84C360.5 132 368 128 376 128s15.5 4 20 10.7zM192 128a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120z" /></svg>
                         </div>
                         <div className="icon" title='Per eventi'>
-                            <label><Translatable id='evs'/></label>
+                            <label><Translatable id='evs' /></label>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384V352h16V480c0 17.7 14.3 32 32 32s32-14.3 32-32V192h56 64 16c17.7 0 32-14.3 32-32s-14.3-32-32-32H384V64H576V256H384V224H320v48c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H368c-26.5 0-48 21.5-48 48v80H243.1 177.1c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9V480c0 17.7 14.3 32 32 32s32-14.3 32-32z" /></svg>
                         </div>
                         <div className="icon" title='Molti altri'>
-                            <label><Translatable id='other'/></label>
+                            <label><Translatable id='other' /></label>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z" /></svg>
                         </div>
                     </div>
@@ -184,7 +187,8 @@ export default function () {
             <div className="container mx-auto">
                 <Card
                     inv={true}
-                    txt={<Translatable id='home.3'/>}
+                    txt={<h3><Translatable id='home.3' /></h3>
+                    }
                     img={
                         <svg className='h-[800px] w-auto scale-[1.5] max-sm:h-60' viewBox="0 0 1122 1115" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M857.298 422.395C812.377 388.027 759.116 382.508 759.116 382.508C757.38 382.338 745.515 320.066 744.342 315.75C724.807 244.739 690.735 175.056 622.27 140.398C536.697 97.1161 412.638 120.656 353.104 197.364C353.844 196.364 321.671 183.854 319.08 183.213C302.302 178.995 284.766 178.8 267.897 182.643C200.029 198.163 155.084 268.958 149.469 339.69C143.853 410.423 193.539 552.483 251.921 579.986" stroke="#FFD43E" stroke-width="5.05" stroke-miterlimit="10" />
