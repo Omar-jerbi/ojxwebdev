@@ -158,5 +158,81 @@
     {
         "k": "w5",
         "v": "At the end of the project, your site will be permanently online to be reached by users from all over the world! SEO and content formatting operations will be carried out so as to be easily identifiable by users on the internet."
+    },
+    {
+        "k": "w6",
+        "v": "Custom vs. CMS-based website? Together, we will determine which choice is ideal for your company."
+    },
+    {
+        "k": "w7",
+        "v": "Wordpress CMS and/or headless CMS:"
+    },
+    {
+        "k": "w8",
+        "v": "A CMS, or content management system, is a software application that allows you to create, manage, and publish digital content, such as text, images, and multimedia, on a website or other digital platform."
+    },
+    {
+        "k": "w9",
+        "v": "Our CMS of choice is Wordpress. Some of the benefits of using this CMS include:"
+    },
+    {
+        "k": "w10",
+        "v": "Consistent design: Wordpress can help ensure consistency in design across your website. By using templates and pre-designed themes, we can maintain a consistent look and feel throughout your content."
+    },
+    {
+        "k": "w11",
+        "v": "Efficient workflow: Wordpress can streamline your content creation process by providing a workflow that allows multiple people to collaborate on content creation, editing, and publishing. This can help reduce the time and effort required to manage your content."
+    },
+    {
+        "k": "w12",
+        "v": "SEO optimization: Many CMS platforms come with built-in SEO features that can help improve your website's search engine ranking. For example, a CMS might provide tools for optimizing meta descriptions, keywords, and page titles."
+    },
+    {
+        "k": "w13",
+        "v": "Overall, a CMS like Wordpress can help make content management easier, more efficient, and more effective."
+    },
+    {
+        "k": "w14",
+        "v": "A headless CMS is a content management system that is designed to provide content without the restrictions of a traditional CMS. Unlike traditional CMS, headless CMS separates the content from the presentation layer (the 'head'). This means that the content can be accessed and displayed in any way that the developer chooses, without being tied to a specific website or application, this allows us to create more grafically unique interfaces for your website in  a faster way than implementing a fully custom website."
+    },
+
+
+
+
+    {
+        "k": "w15",
+        "v": " Custom website:"
+    },
+    {
+        "k": "w16",
+        "v": "A custom website is a website that is designed and developed specifically for a particular business or organization. Here are some benefits of a custom website:"
+    },
+    {
+        "k": "w17",
+        "v": "Unique design: With a custom website, you can have a unique design that is tailored to your business and brand. This can help you stand out from your competitors and make a strong impression on your target audience."
+    },
+    {
+        "k": "w18",
+        "v": "Branding: A custom website can be designed to reflect your brand and messaging, ensuring that your website is consistent with your overall marketing strategy."
+    },
+    {
+        "k": "w19",
+        "v": "SEO optimization: A custom website can be built with search engine optimization (SEO) in mind, ensuring that your website is optimized for search engines and can be easily found by your target audience."
+    },
+    {
+        "k": "w20",
+        "v": "Performance: A custom website can be optimized for speed and performance, ensuring that your website loads quickly and provides a seamless user experience."
+    },
+    {
+        "k": "w21",
+        "v": "Security: A custom website can be built with security in mind, ensuring that your website is protected from hacking and other security threats."
+    },
+    {
+        "k": "w22",
+        "v": "Overall, a custom website can provide a range of benefits for businesses and organizations that want to create a unique, scalable, and secure online presence. While a custom website may require a larger upfront investment than a pre-built website or template, the benefits can outweigh the costs in the long run, providing a higher return on investment and a stronger online presence."
+    },
+    {
+        "k": "w23",
+        "v": "As stated in the title, every project follows a series of clear steps. These measures will assure the best possible performance for your website, regardless of whether it is custom-built, based on WordPress, or even a hybrid of both technologies using a headless CMS."
     }
 ]

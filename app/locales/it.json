@@ -73,7 +73,7 @@
     },
     {
         "k": "work.2",
-        "v": "Per la realizzazione di un progetto seguiamo una catena ben determinata e ben documentata di steps dove ad ogni tappa il tuo sito assumerà nuove funzionalità e nuovi dettagli grafici"
+        "v": "Per la realizzazione di ogni progetto seguiamo una catena ben determinata e ben documentata di steps dove ad ogni tappa il tuo sito assumerà nuove funzionalità e nuovi dettagli grafici"
     },
     {
         "k": "work.3",
@@ -158,5 +158,93 @@
     {
         "k": "w5",
         "v": "Al termine del progetto, il tuo sito sarà messo definitivamente online per essere raggiunto da utenti da tutto il mondo! Verranno compiute operazioni di SEO e di formattazione dei contenuti cosi da risultare facilemente individuabile dagli utenti su internet."
+    },
+    {
+        "k": "w6",
+        "v": "Sito Web custom oppure basato su CMS? Insieme, determineremo quale scelta è ideale per la tua azienda."
+    },
+    {
+        "k": "w7",
+        "v": "Wordpress CMS e/o headless CMS:"
+    },
+    {
+        "k": "w8",
+        "v": "Un CMS, o Content Management System, è un'applicazione software che consente di creare, gestire e pubblicare contenuti digitali, come testo, immagini e contenuti multimediali, su un sito Web o altra piattaforma digitale."
+    },
+    {
+        "k": "w9",
+        "v": "Il CMS di fiducia OJX è Wordpress. Alcuni dei vantaggi dell'utilizzo di questo CMS includono:"
+    },
+    {
+        "k": "w10",
+        "v": "Design coerente: Wordpress può aiutare a garantire la coerenza nel design del tuo sito web. Utilizzando modelli e temi pre-progettati, possiamo mantenere un aspetto coerente in tutti i tuoi contenuti."
+    },
+    {
+        "k": "w11",
+        "v": "Flusso di lavoro efficiente: Wordpress può semplificare il processo di creazione dei contenuti fornendo un flusso di lavoro che consente a più persone di collaborare alla creazione, modifica e pubblicazione dei contenuti. Questo può aiutare a ridurre il tempo e lo sforzo necessari per gestire i tuoi contenuti."
+    },
+    {
+        "k": "w12",
+        "v": "Ottimizzazione SEO: molte piattaforme CMS come Wordpress sono dotate di funzionalità SEO integrate che possono aiutare a migliorare il posizionamento nei motori di ricerca del tuo sito web. Ad esempio, un CMS potrebbe fornire strumenti per ottimizzare meta descrizioni, parole chiave e titoli di pagina."
+    },
+    {
+        "k": "w13",
+        "v": "Nel complesso, un CMS come Wordpress può aiutare a rendere la gestione dei contenuti più semplice, efficiente ed efficace."
+    },
+    {
+        "k": "w14",
+        "v": "Un CMS headless è un sistema di gestione dei contenuti progettato per fornire contenuti senza le restrizioni di un CMS tradizionale. A differenza del CMS tradizionale, il CMS senza testa separa il contenuto dal livello di presentazione (la 'testa'). Ciò significa che è possibile accedere e visualizzare il contenuto in qualsiasi modo lo sviluppatore scelga, senza essere legato a un sito Web o un'applicazione specifici, questo ci consente di creare interfacce graficamente più uniche per il tuo sito Web in un modo più rapido rispetto all'implementazione di un sito Web completamente personalizzato."
     }
+    ,
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "k": "w15",
+        "v": "Sito web custom :"
+    },
+    {
+        "k": "w16",
+        "v": "Un sito Web personalizzato è un sito Web progettato e sviluppato appositamente per la tua particolare azienda o organizzazione. Ecco alcuni vantaggi di un sito Web custom:"
+    },
+    {
+        "k": "w17",
+        "v": "Design unico: con un sito Web personalizzato, puoi avere un design unico su misura per la tua attività e il tuo marchio. Questo può aiutarti a distinguerti dai tuoi concorrenti e fare una forte impressione sul tuo pubblico di destinazione."
+    },
+    {
+        "k": "w18",
+        "v": "Branding: un sito web personalizzato può essere progettato per riflettere il tuo marchio e il tuo messaggio, assicurandoti che il tuo sito web sia coerente con la tua strategia di marketing complessiva."
+    },
+    {
+        "k": "w19",
+        "v": "Ottimizzazione SEO: un sito Web personalizzato può essere creato tenendo presente l'ottimizzazione per i motori di ricerca (SEO), assicurando che il tuo sito Web sia ulteriormente ottimizzato per i motori di ricerca e possa essere facilmente trovato dal tuo pubblico di destinazione."
+    },
+    {
+        "k": "w20",
+        "v": "Performance: un sito Web personalizzato può essere ottimizzato per velocità e prestazioni, assicurando che il tuo sito Web si carichi rapidamente e fornisca un'esperienza utente senza interruzioni."
+    },
+    {
+        "k": "w21",
+        "v": "Sicurezza: un sito Web personalizzato può essere creato tenendo presente la sicurezza, assicurando che il tuo sito Web sia protetto da hacking e altre minacce alla sicurezza."
+    },
+    {
+        "k": "w22",
+        "v": "Nel complesso, un sito Web personalizzato può offrire una serie di vantaggi per le aziende e le organizzazioni che desiderano creare una presenza online unica, scalabile e sicura. Sebbene un sito Web personalizzato possa richiedere un investimento iniziale maggiore rispetto a un sito Web o un modello predefinito, i vantaggi possono superare i costi a lungo termine, fornendo un ritorno sull'investimento più elevato e una presenza online più forte."
+    },
+    {
+        "k": "w23",
+        "v": "Come indicato nel titolo, ogni progetto segue una serie di passaggi chiari. Queste misure assicureranno le migliori prestazioni possibili per il tuo sito Web, indipendentemente dal fatto che sia personalizzato, basato su WordPress o anche un ibrido di entrambe le tecnologie utilizzando un CMS headless."
+    }
+
+
+
 ]

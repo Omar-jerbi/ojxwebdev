@@ -38,9 +38,66 @@ export default function () {
 
             <div className="center">
 
+
+                <div>
+                    <h2 className="text-6xl max-sm:text-3xl font-semibold opacity-40 my-36 max-sm:my-16">
+                        <Translatable id='w6' />
+                    </h2>
+
+                    <article className='w-full md:w-2/3 2xl:w-1/2 mx-auto text-lg'>
+                        <h3 className='text-2xl font-bold mb-8'>
+                            <Translatable id='w7' />
+                        </h3>
+                        <p>
+                            <Translatable id='w8' />
+                            <br />
+                            <Translatable id='w9' />
+                            <br />
+                            <Translatable id='w10' />
+                            <br />
+                            <Translatable id='w11' />
+                            <br />
+                            <Translatable id='w12' />
+                            <br />
+                            <Translatable id='w13' />
+                        </p>
+                        <br /><br />
+                        <p>
+                            <Translatable id='w14' />
+                        </p>
+                    </article>
+                </div>
+
+
                 <hr className='my-10 bg-[var(--font)] border-0' style={{ height: "1px" }} />
 
-                <div className="steps">
+
+                <article className="steps">
+                    <div className="w-full md:w-2/3 2xl:w-1/2 mx-auto mb-10  text-lg">
+                        <h3 className='text-2xl font-bold mb-8 '>
+                            <Translatable id='w15' />
+                        </h3>
+                        <p>
+                            <Translatable id='w16' />
+                            <br />
+                            <Translatable id='w17' />
+                            <br />
+                            <Translatable id='w18' />
+                            <br />
+                            <Translatable id='w19' />
+                            <br />
+                            <Translatable id='w20' />
+                            <br />
+                            <Translatable id='w21' />
+                            <br />
+                            <Translatable id='w22' />
+                        </p>
+                        <br /><br />
+                        <p>
+                            <Translatable id='w23' />
+                        </p>
+                    </div>
+
                     <Step arrow tit={<Translatable id='work.3' />} svg={
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                             <path d="M16,4c-4.963,0-9,4.038-9,9c0,3.186,1.781,5.278,3.212,6.959C11.172,21.085,12,22.059,12,23v5h3
@@ -134,37 +191,43 @@ export default function () {
                                 </g>
                             </svg>
                         } />
-                </div>
 
-                <hr className='my-10 bg-[var(--font)]  border-0' style={{ height: "1px" }} />
 
-                <div id="infos" className='w-full md:w-2/3 2xl:w-1/2 mx-auto'>
-                    <div>
-                        <Translatable id='w1' />
-                    </div>
-                    <br /><br />
-                    <div>
-                        <Translatable id='w2' />
-                    </div>
-                    <br /><br />
 
-                    <div>
-                        <Translatable id='w3' />
-                    </div>
-                    <br /><br />
 
-                    <div>
-                        <Translatable id='work.7' />
+                    <div id="infos" className='w-full md:w-2/3 2xl:w-1/2 mx-auto mt-10'>
+                        <div>
+                            <Translatable id='w1' />
+                        </div>
+                        <br /><br />
+                        <div>
+                            <Translatable id='w2' />
+                        </div>
+                        <br /><br />
+
+                        <div>
+                            <Translatable id='w3' />
+                        </div>
+                        <br /><br />
+
+                        <div>
+                            <Translatable id='work.7' />
+                        </div>
+                        <br /><br />
+                        <div>
+                            <Translatable id='w4' />
+                        </div>
+                        <br /><br />
+                        <div>
+                            <Translatable id='w5' />
+                        </div>
                     </div>
-                    <br /><br />
-                    <div>
-                        <Translatable id='w4' />                        
-                    </div>
-                    <br /><br />
-                    <div>
-                        <Translatable id='w5' />                        
-                    </div>
-                </div>
+
+                </article>
+
+                {/* <hr className='my-10 bg-[var(--font)]  border-0' style={{ height: "1px" }} /> */}
+
+
 
 
                 <div className="ps relative mt-60">
