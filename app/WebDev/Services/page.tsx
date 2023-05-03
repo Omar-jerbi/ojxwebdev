@@ -8,10 +8,11 @@ export const metadata = {
     title: 'OJXwebdev | Progettazione e sviluppo del tuo sito web',
     description: 'I servizi offerti da OJXwebdev vanno dal design della UI delle tue pagine, allo sviluppo del sito web usando framework avanzati e tecniche di programmazione ottimizzate',
     keywords: [
-        "React",
+        "Wordpress",
         "svilppo sito web liguria",
         "sito web albenga",
-        "programmatore liguria"
+        "programmatore liguria",
+        "ojxacademy.com"
     ],
 }
 

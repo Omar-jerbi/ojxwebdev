@@ -61,7 +61,7 @@
     },
     {
         "k": "servs.4",
-        "v": "You won't have to worry about buying domains, setting up mail boxes or managing the hosting of your pages. Your site will be set up complete with everything needed to be accessed by the main browsers and reached by search engines"
+        "v": "Purchasing domains, setting up mail boxes, or maintaining the hosting of your website won't be a concern for you. Your website will be configured to include all necessary components for use with the major browsers and search engines."
     },
     {
         "k": "servs.5",
@@ -195,10 +195,6 @@
         "k": "w14",
         "v": "A headless CMS is a content management system that is designed to provide content without the restrictions of a traditional CMS. Unlike traditional CMS, headless CMS separates the content from the presentation layer (the 'head'). This means that the content can be accessed and displayed in any way that the developer chooses, without being tied to a specific website or application, this allows us to create more grafically unique interfaces for your website in  a faster way than implementing a fully custom website."
     },
-
-
-
-
     {
         "k": "w15",
         "v": " Custom website:"

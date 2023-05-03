@@ -7,10 +7,10 @@ import Translatable from '@/app/components/Translatable/Translatable';
 
 export const metadata = {
     title: 'OJXwebdev | Informati sui costi di sviluppo del tuo sito web',
-    description: 'Contatti per informazioni sui costi di sviluppo del tuo sito web',
+    description: 'Contatti per informazioni sui costi di sviluppo del tuo sito web Wordpress o Custom',
     keywords: [
-        "preventico sito internet",
-        "programmazione sito internet",
+        "preventivo sito internet",
+        "preventivo sito web",
         "wordpress"
     ],
 }

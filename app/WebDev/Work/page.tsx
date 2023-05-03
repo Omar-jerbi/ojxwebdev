@@ -5,15 +5,14 @@ import Translatable from '@/app/components/Translatable/Translatable';
 
 
 export const metadata = {
-    title: 'OJXwebdev | Design e sviluppo siti web profesisonali',
+    title: 'OJXwebdev | Design e sviluppo siti web professionali Wordpress e Custom',
     description: "Con OJXwebdev il tuo sito verrà sviluppato usando tecnologie avanzate che garamtiranno una resa ottimale di SEO e un'esperienza di utilizzo impeccabile",
     keywords: [
         "sito ecommerce",
-        "sito web portfolio",
+        "wordpress italia",
         "sito web business",
         "design sito web",
         "design sito internet",
-
     ],
 }
 
