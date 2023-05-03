@@ -25,7 +25,7 @@
     },
     {
         "k": "home.1",
-        "v": "Utilizzando le tecnologie più avanzate sul mercato, il tuo sito verrà sviluppato seguendo le tue idee."
+        "v": "Il tuo sito web sarà creato in accordo con le tue idee uniche, utilizzando le tecnologie più all'avanguardia disponibili."
     },
     {
         "k": "home.2",
@@ -33,7 +33,7 @@
     },
     {
         "k": "home.3",
-        "v": "I tuoi feedback guideranno l'intera fase di sviluppo così da consegnarti un prodotto completo, che rispecchi pienamente le tue idee e che offra performances senza eguali."
+        "v": "Il tuoi feedback e le tue opinioni dirigeranno l'intero processo di sviluppo in modo da consegnarti un prodotto finito che rifletta accuratamente le tue idee e fornisca prestazioni senza pari."
     },
     {
         "k": "servs",
@@ -49,7 +49,7 @@
     },
     {
         "k": "servs.1",
-        "v": "'Il tuo sito per le tue idee': questo è l'approccio OJX!"
+        "v": "Il tuo sito per le tue idee: questo è l'approccio OJX!"
     },
     {
         "k": "servs.2",
@@ -57,11 +57,11 @@
     },
     {
         "k": "servs.3",
-        "v": "Dalle fasi iniziali di progettazione all'ottimizzazione per i motori di ricerca, non ti dovrai preoccupare degli aspetti più tecnici: Per i primi 12 mesi, l'hosting e l'assegnazione del dominio te le regala OJX!"
+        "v": "Non dovrai preoccuparti degli aspetti più tecnici dello sviluppo e del mantenimento del tuo sito web: OJX offre hosting gratuito e assegnazione del dominio per i primi 12 mesi!"
     },
     {
         "k": "servs.4",
-        "v": "Non ti dovrai preoccupare di acquistare domini, allestire mail box o gestire l'hosting delle tue pagine. Il tuo sito verrà allestito completo di tutto il necessario per essere acceduto dai pricipali browser e raggiunto dai motori di ricerca"
+        "v": "L'acquisto di domini web, l'impostazione di caselle di posta o il mantenimento dell'hosting del tuo sito Web non saranno un problema per te. Il tuo sito sarà configurato per includere tutti i componenti necessari per l'utilizzo con i principali browser e motori di ricerca."
     },
     {
         "k": "servs.5",
@@ -141,7 +141,7 @@
     },
     {
         "k": "w1",
-        "v": "Inizia tutto dalla tua idea! Sarà compito nostro sviluppare la tua visione in un sito bello, funzionale e che faccia conoscere la tua azienda o i tuoi prodotto al mondo intero."
+        "v": "Inizia tutto dalla tua idea! Sarà compito del programmatore sviluppare la tua visione in un sito bello, funzionale e che faccia conoscere la tua azienda o i tuoi prodotto al mondo intero."
     },
     {
         "k": "w2",
@@ -149,7 +149,7 @@
     },
     {
         "k": "w3",
-        "v": "Il tuo sito non dovrà essere solo bello da vedere, dovrà garantire la migliore esperienza di utilizzo ai suoi visitatori. Nella fase di progettazione della UX, verranno studiate e comparate le migliori soluzioni per la realizzazione delle operazioni presenti nel tuo sito, oltre all'allestimento della base di dati, dei vari profili utente, dell'hosting e del dominio..."
+        "v": "Il tuo sito non dovrà essere solo bello da vedere, dovrà anche garantire la migliore esperienza di utilizzo ai suoi visitatori. Nella fase di progettazione della UX, verranno studiate e comparate le migliori soluzioni per la realizzazione delle operazioni presenti nel tuo sito, oltre all'allestimento della base di dati, dei vari profili utente, dell'hosting e del dominio..."
     },
     {
         "k": "w4",
@@ -157,11 +157,11 @@
     },
     {
         "k": "w5",
-        "v": "Al termine del progetto, il tuo sito sarà messo definitivamente online per essere raggiunto da utenti da tutto il mondo! Verranno compiute operazioni di SEO e di formattazione dei contenuti cosi da risultare facilemente individuabile dagli utenti su internet."
+        "v": "Al termine del progetto, il tuo sito sarà messo definitivamente online per essere raggiunto da utenti da tutto il mondo! Verranno compiute operazioni di SEO e di formattazione dei contenuti così da risultare facilemente individuabile dagli utenti su internet."
     },
     {
         "k": "w6",
-        "v": "Sito Web custom oppure basato su CMS? Insieme, determineremo quale scelta è ideale per la tua azienda."
+        "v": "Sito Web custom oppure basato su CMS? Insieme, determineremo quale scelta è ideale per il tuo progetto."
     },
     {
         "k": "w7",
@@ -194,20 +194,7 @@
     {
         "k": "w14",
         "v": "Un CMS headless è un sistema di gestione dei contenuti progettato per fornire contenuti senza le restrizioni di un CMS tradizionale. A differenza del CMS tradizionale, il CMS senza testa separa il contenuto dal livello di presentazione (la 'testa'). Ciò significa che è possibile accedere e visualizzare il contenuto in qualsiasi modo lo sviluppatore scelga, senza essere legato a un sito Web o un'applicazione specifici, questo ci consente di creare interfacce graficamente più uniche per il tuo sito Web in un modo più rapido rispetto all'implementazione di un sito Web completamente personalizzato."
-    }
-    ,
-
-
-
-
-
-
-
-
-
-
-
-
+    },
     {
         "k": "w15",
         "v": "Sito web custom :"
@@ -244,7 +231,4 @@
         "k": "w23",
         "v": "Come indicato nel titolo, ogni progetto segue una serie di passaggi chiari. Queste misure assicureranno le migliori prestazioni possibili per il tuo sito Web, indipendentemente dal fatto che sia personalizzato, basato su WordPress o anche un ibrido di entrambe le tecnologie utilizzando un CMS headless."
     }
-
-
-
 ]

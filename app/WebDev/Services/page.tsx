@@ -24,7 +24,7 @@ export default function () {
             <div className="w-full relative h-[50vh] max-sm:h-[100vh] flex items-center">
                 <div id='bg' className="absolute w-full h-full top-0 left-0"></div>
                 <div className="text container mx-auto text-[var(--font)]">
-                    <div className='font-semibold text-3xl'>
+                    <div className='font-bold text-4xl'>
                         <Translatable id='servs.1' />
                     </div>
                     <hr className='border-0 h-1 w-1/3 bg-[var(--font)] my-5' />

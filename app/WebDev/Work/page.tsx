@@ -50,13 +50,18 @@ export default function () {
                         <p>
                             <Translatable id='w8' />
                             <br />
+                            <br />
                             <Translatable id='w9' />
+                            <br />
                             <br />
                             <Translatable id='w10' />
                             <br />
+                            <br />
                             <Translatable id='w11' />
                             <br />
+                            <br />
                             <Translatable id='w12' />
+                            <br />
                             <br />
                             <Translatable id='w13' />
                         </p>
@@ -79,15 +84,21 @@ export default function () {
                         <p>
                             <Translatable id='w16' />
                             <br />
+                            <br />
                             <Translatable id='w17' />
+                            <br />
                             <br />
                             <Translatable id='w18' />
                             <br />
+                            <br />
                             <Translatable id='w19' />
+                            <br />
                             <br />
                             <Translatable id='w20' />
                             <br />
+                            <br />
                             <Translatable id='w21' />
+                            <br />
                             <br />
                             <Translatable id='w22' />
                         </p>
