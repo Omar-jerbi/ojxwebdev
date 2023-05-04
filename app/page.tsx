@@ -1,4 +1,3 @@
-import { NSeo } from './NSeo';
 import Link from 'next/link'
 import './WebDev.scss'
 import './WebDev/About/About.scss'
@@ -10,8 +9,6 @@ export default function () {
     return (
         <div className="home overflow-x-hidden">
             
-            <NSeo />
-
             <div className="hero relative flex flex-col justify-center">
                 <div className="text tracking-[0.2rem] ml-48 max-sm:ml-2 max-sm:tracking-wide">
                     <h1 className='mb-9 text-8xl font-normal w-fit max-sm:text-3xl max-sm:mb-3'><Translatable id={"title"} /></h1>
