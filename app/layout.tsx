@@ -9,7 +9,6 @@ import { LangContextProvider } from "./contexts/LangContext";
 import Langs from "./components/Langs/Langs";
 
 
-
 export const metadata = {
     title: 'OJXwebdev | Sviluppiamo il TUO sito web',
     description: 'Affidandoti ad OJX trasformeremo le tue idee nel tuo sito web! Sviluppo di siti internet personalizzabili di ogni tipo, sia custom che con CMS Wordpress!',
@@ -51,7 +50,6 @@ export default function RootLayout({
     return (
         <html lang="en">
             <LangContextProvider>
-
                 <body className="body-clientsite">
 
                     {/* FIX LOADING ICON */}

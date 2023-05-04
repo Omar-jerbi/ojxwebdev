@@ -1,3 +1,4 @@
+import { NSeo } from './NSeo';
 import Link from 'next/link'
 import './WebDev.scss'
 import './WebDev/About/About.scss'
@@ -5,11 +6,12 @@ import Image from 'next/image';
 import { Card } from './components/Cards/Card';
 import Translatable from './components/Translatable/Translatable';
 
-
-
 export default function () {
     return (
         <div className="home overflow-x-hidden">
+            
+            <NSeo />
+
             <div className="hero relative flex flex-col justify-center">
                 <div className="text tracking-[0.2rem] ml-48 max-sm:ml-2 max-sm:tracking-wide">
                     <h1 className='mb-9 text-8xl font-normal w-fit max-sm:text-3xl max-sm:mb-3'><Translatable id={"title"} /></h1>
@@ -255,7 +257,7 @@ export default function () {
 
                 <div className="d text-center flex flex-col justify-center items-center gap-8">
                     <h3 className='text-5xl font-semibold text-[var(--red)] max-sm:text-3xl'>
-                        <Translatable id='g'/>
+                        <Translatable id='g' />
                     </h3>
                     <div className="">
                         <a href="/tutoit.pdf" download className='flex justify-center items-center hover:text-red-800'>
